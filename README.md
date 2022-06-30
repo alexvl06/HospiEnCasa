@@ -5,5 +5,3 @@ MisionTIC project
 
  - Posee el siguiente diagrama UML:
     ![Aquí deberías estar viendo el UML del proyecto](https://github.com/alexvl06/HospiEnCasa/blob/main/UML.png)
- - Asociado al siguiente diagrama ER (Entidad relación):
-	 *(Colocar imagen con diagrama ER)*
