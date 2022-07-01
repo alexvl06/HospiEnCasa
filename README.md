@@ -1,4 +1,4 @@
-# HospiEnCasa APP
+# HospiEnCasa
 MisionTIC project
 
 ## Aplicativo elaborado en C# para asistencia hospitalaria remota...
