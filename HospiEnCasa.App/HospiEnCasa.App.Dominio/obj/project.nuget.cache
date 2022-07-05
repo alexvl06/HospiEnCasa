@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "orR3+JCIrGROku0WWsnioFpknPqRa2OMvEAkO3IGclG+YwJdH5M++fArsE601z5ufMR5UwbRkcvSwgM7Cfst9w==",
+  "dgSpecHash": "sKyW76FKC0DdgRD8M20TUvLffzJn7k9vbgQV0Ej3N6xqmlfzzLxYRcIw3Lb3NEgkm2b+eck8SRk1MCn/NxbYrQ==",
   "success": true,
-  "projectFilePath": "C:\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj",
+  "projectFilePath": "/home/inter-telco/Documents/Alexis/personal/mintic/HospiEnCasa/HospiEnCasa.App/HospiEnCasa.App.Dominio/HospiEnCasa.App.Dominio.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

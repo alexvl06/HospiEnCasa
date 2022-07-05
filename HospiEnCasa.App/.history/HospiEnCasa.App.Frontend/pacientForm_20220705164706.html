@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width
+    , initial-scale=1.0"
+    />
+    <title>Formulario pacientes</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Registrar Paciente</h1>
+    </header>
+    <main>
+      <form action="">
+        <label for="id">
+          <span>ID</span>
+          <input type="text" name="id" id="id" required />
+        </label>
+        <label for="firstname">
+          <span>Nombres</span>
+          <input
+            type="text"
+            name="firstname"
+            id="firstname"
+            requiredphonenumber
+          />
+        </label>
+        <label for="lastname">
+          <span>Apellidos</span>
+          <input type="text" name="lastname" id="lastname" required />
+        </label>
+        <label for="phonenumber">
+          <span>Número de teléfono</span>
+          <input type="text" name="phonenumber" id="phonenumber" required />
+        </label>
+        <label for="genre">
+          <span>Género</span>
+          <fieldset>
+            <label for="male">
+              <input type="checkbox" name="male" id="male" />
+              <span>Masculino</span>
+            </label>
+            <label for="male">
+              <input type="checkbox" name="female" id="female" />
+              <span>Masculino</span>
+            </label>
+            <label for="male">
+              <input type="checkbox" name="other" id="other" />
+              <span>Masculino</span>
+            </label>
+          </fieldset>
+        </label>
+        <label for="address">
+          <span>Dirección</span>
+          <input type="text" name="address" id="address" required />
+        </label>
+        <label for="city">
+          <span>Ciudad</span>
+          <input type="text" name="city" id="city" required />
+        </label>
+        <label for="birthdate">
+          <span>Fecha de nacimiento</span>
+          <input type="text" name="birthdate" id="birthdate" required />
+        </label>
+        <label for="lat">
+          <span>Latitud</span>
+          <input type="text" name="lat" id="lat" />
+        </label>
+        <label for="long">
+          <span>Longitud</span>
+          <input type="text" name="long" id="long" />
+        </label>
+      </form>
+    </main>
+  </body>
+</html>
