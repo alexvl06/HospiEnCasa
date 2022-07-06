@@ -1,7 +1,7 @@
 *{
   box-sizing: border-box;
-  margin:0;
-  padding: 0;
+  margin: auto;
+  padding: auto;
 }
 
 html{
@@ -15,14 +15,25 @@ h1{
 }
 
 form{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  display: block;
   width: 20rem;
-  margin: 2rem 10rem;
 
+}
+
+input{
+  width:20rem;
+}
+
+fieldset > label > input{
+  width: 8rem;
+  margin-top: 0.5rem;
 }
 
 form label input, fieldset{
   margin-bottom: 1rem;
+}
+
+
+button{
+  display: flex;
 }
