@@ -18,7 +18,7 @@
     <main>
       <form action="">
         <label for="id">
-          <span>ID</span>
+          <span>Número de identificación</span>
           <input type="text" name="id" id="id" required />
         </label>
         <label for="firstname">
@@ -39,18 +39,17 @@
           <input type="text" name="phonenumber" id="phonenumber" required />
         </label>
         <label for="genre">
-
           <fieldset>
             <legend>Género</legend>
             <label for="male">
               <input type="radio" name="genre" id="male" />
               <span>Masculino</span>
             </label>
-            <label for="male">
+            <label for="female">
               <input type="radio" name="genre" id="female" />
               <span>Femenino</span>
             </label>
-            <label for="male">
+            <label for="other">
               <input type="radio" name="genre" id="other" />
               <span>No binario</span>
             </label>
@@ -76,6 +75,7 @@
           <span>Longitud</span>
           <input type="text" name="long" id="long" />
         </label>
+        <button type="submit">Crear perfil</button>
       </form>
     </main>
   </body>

@@ -23,6 +23,6 @@ form{
 
 }
 
-form label input{
+form label input, fieldset{
   margin-bottom: 1rem;
 }
