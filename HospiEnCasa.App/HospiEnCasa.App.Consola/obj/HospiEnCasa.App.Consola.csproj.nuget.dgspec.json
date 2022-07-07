@@ -1,35 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Consola\\HospiEnCasa.App.Consola.csproj": {}
+    "/home/inter-telco/Documents/Alexis/personal/mintic/HospiEnCasa/HospiEnCasa.App/HospiEnCasa.App.Consola/HospiEnCasa.App.Consola.csproj": {}
   },
   "projects": {
-    "C:\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Consola\\HospiEnCasa.App.Consola.csproj": {
+    "/home/inter-telco/Documents/Alexis/personal/mintic/HospiEnCasa/HospiEnCasa.App/HospiEnCasa.App.Consola/HospiEnCasa.App.Consola.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Consola\\HospiEnCasa.App.Consola.csproj",
+        "projectUniqueName": "/home/inter-telco/Documents/Alexis/personal/mintic/HospiEnCasa/HospiEnCasa.App/HospiEnCasa.App.Consola/HospiEnCasa.App.Consola.csproj",
         "projectName": "HospiEnCasa.App.Consola",
-        "projectPath": "C:\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Consola\\HospiEnCasa.App.Consola.csproj",
-        "packagesPath": "C:\\Users\\jusej\\.nuget\\packages\\",
-        "outputPath": "C:\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Consola\\obj\\",
+        "projectPath": "/home/inter-telco/Documents/Alexis/personal/mintic/HospiEnCasa/HospiEnCasa.App/HospiEnCasa.App.Consola/HospiEnCasa.App.Consola.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/home/inter-telco/Documents/Alexis/personal/mintic/HospiEnCasa/HospiEnCasa.App/HospiEnCasa.App.Consola/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jusej\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net6.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj": {
-                "projectPath": "C:\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj"
+              "/home/inter-telco/Documents/Alexis/personal/mintic/HospiEnCasa/HospiEnCasa.App/HospiEnCasa.App.Dominio/HospiEnCasa.App.Dominio.csproj": {
+                "projectPath": "/home/inter-telco/Documents/Alexis/personal/mintic/HospiEnCasa/HospiEnCasa.App/HospiEnCasa.App.Dominio/HospiEnCasa.App.Dominio.csproj"
               },
-              "C:\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Persistencia\\HospiEnCasa.App.Persistencia.csproj": {
-                "projectPath": "C:\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Persistencia\\HospiEnCasa.App.Persistencia.csproj"
+              "/home/inter-telco/Documents/Alexis/personal/mintic/HospiEnCasa/HospiEnCasa.App/HospiEnCasa.App.Persistencia/HospiEnCasa.App.Persistencia.csproj": {
+                "projectPath": "/home/inter-telco/Documents/Alexis/personal/mintic/HospiEnCasa/HospiEnCasa.App/HospiEnCasa.App.Persistencia/HospiEnCasa.App.Persistencia.csproj"
               }
             }
           }
@@ -41,7 +42,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -65,21 +67,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.420\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj": {
+    "/home/inter-telco/Documents/Alexis/personal/mintic/HospiEnCasa/HospiEnCasa.App/HospiEnCasa.App.Dominio/HospiEnCasa.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj",
+        "projectUniqueName": "/home/inter-telco/Documents/Alexis/personal/mintic/HospiEnCasa/HospiEnCasa.App/HospiEnCasa.App.Dominio/HospiEnCasa.App.Dominio.csproj",
         "projectName": "HospiEnCasa.App.Dominio",
-        "projectPath": "C:\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\jusej\\.nuget\\packages\\",
-        "outputPath": "C:\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Dominio\\obj\\",
+        "projectPath": "/home/inter-telco/Documents/Alexis/personal/mintic/HospiEnCasa/HospiEnCasa.App/HospiEnCasa.App.Dominio/HospiEnCasa.App.Dominio.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/home/inter-telco/Documents/Alexis/personal/mintic/HospiEnCasa/HospiEnCasa.App/HospiEnCasa.App.Dominio/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jusej\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -89,6 +91,7 @@
         },
         "frameworks": {
           "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
             "projectReferences": {}
           }
         },
@@ -100,6 +103,7 @@
       },
       "frameworks": {
         "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
           "imports": [
             "net461",
             "net462",
@@ -115,21 +119,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.420\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Persistencia\\HospiEnCasa.App.Persistencia.csproj": {
+    "/home/inter-telco/Documents/Alexis/personal/mintic/HospiEnCasa/HospiEnCasa.App/HospiEnCasa.App.Persistencia/HospiEnCasa.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Persistencia\\HospiEnCasa.App.Persistencia.csproj",
+        "projectUniqueName": "/home/inter-telco/Documents/Alexis/personal/mintic/HospiEnCasa/HospiEnCasa.App/HospiEnCasa.App.Persistencia/HospiEnCasa.App.Persistencia.csproj",
         "projectName": "HospiEnCasa.App.Persistencia",
-        "projectPath": "C:\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Persistencia\\HospiEnCasa.App.Persistencia.csproj",
-        "packagesPath": "C:\\Users\\jusej\\.nuget\\packages\\",
-        "outputPath": "C:\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Persistencia\\obj\\",
+        "projectPath": "/home/inter-telco/Documents/Alexis/personal/mintic/HospiEnCasa/HospiEnCasa.App/HospiEnCasa.App.Persistencia/HospiEnCasa.App.Persistencia.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/home/inter-telco/Documents/Alexis/personal/mintic/HospiEnCasa/HospiEnCasa.App/HospiEnCasa.App.Persistencia/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jusej\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -139,9 +143,10 @@
         },
         "frameworks": {
           "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj": {
-                "projectPath": "C:\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj"
+              "/home/inter-telco/Documents/Alexis/personal/mintic/HospiEnCasa/HospiEnCasa.App/HospiEnCasa.App.Dominio/HospiEnCasa.App.Dominio.csproj": {
+                "projectPath": "/home/inter-telco/Documents/Alexis/personal/mintic/HospiEnCasa/HospiEnCasa.App/HospiEnCasa.App.Dominio/HospiEnCasa.App.Dominio.csproj"
               }
             }
           }
@@ -154,6 +159,7 @@
       },
       "frameworks": {
         "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -191,7 +197,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.420\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
         }
       }
     }
