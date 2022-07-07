@@ -1,0 +1,27 @@
+
+ul{
+  list-style:none;
+  display: flex;
+  margin: 1rem;
+}
+
+li > ul{
+  display: none; 
+  height: 3rem;
+
+
+}
+
+li:hover > ul{
+  display: flex;
+  flex-direction: column;
+}
+
+
+#navbar-content{
+  height: 5rem;;
+}
+
+a{
+  text-decoration: none;
+}

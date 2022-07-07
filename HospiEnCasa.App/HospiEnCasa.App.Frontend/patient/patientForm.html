@@ -9,13 +9,16 @@
     , initial-scale=1.0"
     />
     <title>Formulario pacientes</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../templates/style.css">
   </head>
   <body>
     <header>
-      <h1>Registrar Paciente</h1>
+   
     </header>
     <main>
+      <h1>Registrar Paciente</h1>
       <form action="">
         <label for="id">
           <span>Número de identificación</span>
@@ -116,5 +119,12 @@
         <button type="submit">Crear perfil</button>
       </form>
     </main>
+
+
   </body>
+  <script>
+    $(document).ready(function () {
+      $('header').load('../templates/navbar.html');
+    });
+    </script>
 </html>
