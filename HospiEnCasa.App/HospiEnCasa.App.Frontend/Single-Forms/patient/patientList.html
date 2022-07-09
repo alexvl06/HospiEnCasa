@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width
+    , initial-scale=1.0"
+    />
+    <title>Lista de pacientes</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+   
+    </header>
+    <main>
+      <h1>Lista de pacientes</h1>
+      <div class="form-group">
+        <div class="form-col-4">
+            <label for="event">Filtrar por</label>
+        </div>
+        <div class="form-col-8">
+            <select id="event" required>
+                <option value="">Elija una opcion</option>
+                <option value="E1">Medico</option>
+                <option value="E2">Genero</option>
+                <option value="E3">Tipo de signo</option>
+                <option value="E4">Todos</option>
+            </select>
+        </div>
+    </div>
+    <button type="submit">Consultar</button>
+    </main>
+    <div class="conteiner">
+        <h4>lista</h4>
+    </div>
+  </body>
+</html>
