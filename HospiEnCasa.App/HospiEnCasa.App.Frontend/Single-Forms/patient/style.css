@@ -38,3 +38,13 @@ button{
   display: flex;
 }
 
+.conteiner{
+  width: 400px;
+  height: 400px;
+  background: blue;
+}
+
+.form-group{
+  display:flex;
+}
+
