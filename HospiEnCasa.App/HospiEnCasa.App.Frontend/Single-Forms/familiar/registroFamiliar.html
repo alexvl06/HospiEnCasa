@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Familiar Designado</title>
+    <link rel="stylesheet" href="registroFamiliar.css">
+
+</head>
+
+<body>
+    <main>
+        <form action="" class="formulario" id="formulario">
+            <!--Grupo: Id -->
+            <div class="formulario__grupo  id="grupo__Id">
+                <label for="Id" class="formulario__label">Id</label>
+                <div class="formulario__grupo-input">
+                    <input type="text" class="formulario__input" name="Id" id="Id"placeholder="Escribe el Id">
+                    <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
+                </div>
+                <p class="formulario__input-error">El Id solo puede tener números</p>
+            </div>
+
+           <!--Grupo: nombre -->
+           <div class="formulario__grupo" id="grupo__nombre">
+            <label for="nombre" class="formulario__label">Nombre</label>
+            <div class="formulario__grupo-input">
+                <input type="text" class="formulario__input" name="nombre" id="nombre"placeholder="Escribe nombre">
+                <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
+            </div>
+            <p class="formulario__input-error">El nombre solo puede tener letras</p>
+        </div>
+
+          <!--Grupo: apellidos -->
+          <div class="formulario__grupo" id="grupo__apellidos">
+            <label for="apellidos" class="formulario__label">Apellidos</label>
+            <div class="formulario__grupo-input">
+                <input type="text" class="formulario__input" name="apellidos" id="apellidos"placeholder="Escribe apellidos">
+                <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
+            </div>
+            <p class="formulario__input-error">Los apellidos solo pueden tener letras </p>
+        </div>
+
+         <!--Grupo: numero de telefono -->
+         <div class="formulario__grupo" id="grupo__numero de telefono">
+            <label for="numero de telefono" class="formulario__label">Número de Teléfono</label>
+            <div class="formulario__grupo-input">
+                <input type="text" class="formulario__input" name="numero de telefono" id="Número de teléfono"placeholder="123456789">
+                <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
+            </div>
+            <p class="formulario__input-error">Solo se permiten números </p>
+        </div>
+
+         <!--Grupo: genero -->
+         <label for="Genero" class="formulario__label">Genero</label>
+         <div class="formulario__grupo-input">
+            <label for="Masculino">Masculino</label>
+            <input type="radio" id="Masculino" name = "genero" value="Masculino" >
+            <label for="Femenino">Femenino</label>
+            <input type="radio" id="Femenino" name ="genero" value="Femenino" >
+            <label for="Otro">Otro</label>
+            <input type="radio" id="Otro" name ="genero" value="Otro" >
+            <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
+            <p class="formulario__input-error">Se debe seleccionar una opción </p>
+        </div>
+
+         <!--Grupo: correo electronico -->
+         <div class="formulario__grupo" id="grupo__correo electronico">
+            <label for="correo electronico" class="formulario__label">Correo Electrónico</label>
+            <div class="formulario__grupo-input">
+                <input type="email" class="formulario__input" name="correo electronico" id="correo electronico"placeholder="correo@correo.com">
+                <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
+            </div>
+            <p class="formulario__input-error">El correo electronico solo pueden tener letras, números, puntos, guiones </p>
+        </div>
+
+         <!--Grupo: parentesco -->
+         <div class="formulario__grupo" id="grupo__parentesco">
+            <label for="parentesco" class="formulario__label">Parentesco</label>
+            <div class="formulario__grupo-input">
+                <input type="text" class="formulario__input" name="parentesco" id="parentesco"placeholder="Escribe parentesco">
+                <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
+            </div>
+            <p class="formulario__input-error">El parentesco solo pueden tener letras </p>
+        </div>
+
+            <div class="formulario__mensaje" id="formulario__mensaje">
+                <p><i class="fa-solid fa-triangle-exclamation"></i> <b>Error:</b> El formulario tiene que estar completo </p>
+            </div>
+
+            <div class="formulario__grupo formulario__grupo-btn-enviar">
+                <button type="submit" class="formulario__btn"> Guardar </button>
+                <p class="formulario__mensaje-exito" id="formulario__mensaje-exito"> El formulario se guardo exitosamente </p>
+
+            </div>
+        </form>
+    </main>
+
+    <script src="https://kit.fontawesome.com/bd4d3a52ad.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
