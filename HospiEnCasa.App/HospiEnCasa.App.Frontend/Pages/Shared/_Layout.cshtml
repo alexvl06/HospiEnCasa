@@ -1,29 +1,95 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - HospiEnCasa</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+    <style>
+        body {
+            background-image: url("img/Registro.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            font-size: 1.2rem;
+            font-family: sans-serif;
+            line-height: 1.6em;
+        }
+
+        header {
+            background-color: cornflowerblue;
+        }
+
+        .navbar {
+            padding: 2rem 0;
+        }
+
+        .navbar a {
+            color: white;
+        }
+
+        .logo-nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 auto;
+        }
+
+        .navigation ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .navigation ul li {
+            display: inline-block;
+        }
+
+        .navigation ul li a {
+            transition: all 0.4s linear;
+            border-radius: 5px;
+        }
+
+        .navigation ul li a:hover {
+            background: darkgray;
+        }
+        .footer {
+    background:darkgray ;
+    padding: 1rem 0;
+    text-align: center;
+    margin-top: 9rem;
+}
+    </style>
 </head>
+
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">HospiEnCasa</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm border-bottom box-shadow mb-3">
+            <div class="logo-nav-container">
+                <a class="navbar-brand" asp-area="" asp-page="/Index"><img src="../img/HC.png" alt="Logo" height="100px" height="56px"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                <div class="navigation navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Formularios/Pacientes">Pacientes</a>
+                            <a class="nav-link" asp-area="" asp-page="/Formularios/RegPacientes">Registrar Pacientes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="Formularios/medicoForm">Médicos</a>
+                            <a class="nav-link" asp-area="" asp-page="Formularios/medicoForm">Lista de Pacientes</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-page="Formularios/medicoForm">Detalles de Pacientes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-page="Formularios/medicoForm">Registrar Médicos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-page="Formularios/medicoForm">Registrar Familiares</a>
+                        </li>
+                        
                     </ul>
                 </div>
             </div>
@@ -37,7 +103,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2022 - HospiEnCasa.App.Frontend - <a asp-area="" asp-page="/medicoForms">Privacy</a>
+            &copy; 2022 - RevoluTIC 5.0
         </div>
     </footer>
 
@@ -47,4 +113,5 @@
 
     @RenderSection("Scripts", required: false)
 </body>
+
 </html>

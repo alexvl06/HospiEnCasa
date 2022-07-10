@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace HospiEnCasa.App.Frontend.Pages
 {
-    public class PacientesModel : PageModel
+    public class RegPacientesModel : PageModel
     {
         public void OnGet()
         {

@@ -35,7 +35,6 @@ C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp
 C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.pdb
 C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.genruntimeconfig.cache
 C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.csproj.CopyComplete
-C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\Pacientes.cshtml.g.cs
 C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\bin\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.StaticWebAssets.xml
@@ -74,3 +73,4 @@ C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debu
 C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.pdb
 C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.genruntimeconfig.cache
 C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.csproj.CopyComplete
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\RegPacientes.cshtml.g.cs

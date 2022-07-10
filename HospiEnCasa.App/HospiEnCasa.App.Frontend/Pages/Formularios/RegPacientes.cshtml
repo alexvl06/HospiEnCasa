@@ -1,0 +1,77 @@
+﻿@page
+@model HospiEnCasa.App.Frontend.Pages.RegPacientesModel
+@{
+    ViewData["Title"] = "Reg. Pacientes";
+}
+<head>
+    <link rel="stylesheet" href="~/css/registroFamiliar.css">
+</head>
+<body>
+
+    <h1>REGISTRAR PACIENTES</h1>
+    <form action="">
+        <label for="id">
+            <span>Número de identificación</span>
+            <input type="text" name="id" id="id" required pattern="[0-9]{5,10}"
+                title="Ingrese de 5 a 10 dígitos. No se permite otro tipo de carácteres." />
+        </label>
+        <label for="firstname">
+            <span>Nombres</span>
+            <input type="text" name="firstname" id="firstname" required pattern="^[^ ][a-zA-ZÀ-ÿ ]{1,100}[^ ]$"
+                title="No se permiten carácteres que no sean letras o espacios. También esta prohibido iniciar o acabar con espacios" />
+        </label>
+        <label for="lastname">
+            <span>Apellidos</span>
+            <input type="text" name="lastname" id="lastname" required pattern="^[^ ][a-zA-ZÀ-ÿ ]{1,100}[^ ]$"
+                title="No se permiten carácteres que no sean letras o espacios. También esta prohibido iniciar o acabar con espacios" />
+        </label>
+        <label for="phonenumber">
+            <span>Número de teléfono</span>
+            <input type="text" name="phonenumber" id="phonenumber" required pattern="[0-9]{10}"
+                title="Ingresa 10 dígitos, ni más ni menos. No se permiten tampoco otro tipo de carácteres." />
+        </label>
+        <label for="genre">
+            <fieldset>
+                <legend>Género</legend>
+                <label for="male">
+                    <input type="radio" name="genre" id="male" />
+                    <span>Masculino</span>
+                </label>
+                <label for="female">
+                    <input type="radio" name="genre" id="female" />
+                    <span>Femenino</span>
+                </label>
+                <label for="other">
+                    <input type="radio" name="genre" id="other" />
+                    <span>No binario</span>
+                </label>
+            </fieldset>
+        </label>
+        <label for="address">
+            <span>Dirección</span>
+            <input type="text" name="address" id="address" required />
+        </label>
+        <label for="city">
+            <span>Ciudad</span>
+            <input type="text" name="city" id="city" required pattern="^[^
+          ][a-zA-ZÀ-ÿ ]{1,100}[^ ]$" title="No se permiten carácteres que no
+          sean letras o espacios. También esta prohibido iniciar o acabar con
+          espacios" sean letras." />
+        </label>
+        <label for="birthdate">
+            <span>Fecha de nacimiento</span>
+            <input type="date" name="birthdate" id="birthdate" required />
+        </label>
+        <label for="lat">
+            <span>Latitud</span>
+            <input type="text" name="lat" id="lat" pattern="-?\d+([,.]\d+)"
+                title="Solo se admite números separados por coma o punto" />
+        </label>
+        <label for="long">
+            <span>Longitud</span>
+            <input type="text" name="long" id="long" pattern="-?\d+([,.]\d+)"
+                title="Solo se admite números separados por coma." />
+        </label>
+        <button type="submit">Crear perfil</button>
+    </form>
+</body>
