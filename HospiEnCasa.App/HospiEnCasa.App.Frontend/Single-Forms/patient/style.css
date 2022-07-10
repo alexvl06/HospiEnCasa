@@ -46,11 +46,15 @@ button{
 
 .form-group{
   display:flex;
+  flex-direction: column;
+  margin: 10px;
 }
 
 table{
   border-collapse: collapse;
-
+  margin: 10px;
+  display: flex;
+  justify-content: center;
 }
   th{
   border: 1px solid black;
