@@ -20,14 +20,13 @@
       <h1>Lista de pacientes</h1>
       <div class="form-group">
         <div class="form-col-4">
-            <label for="event">Filtrar por</label>
+            <label for="event">Ordenar por: </label>
         </div>
         <div class="form-col-8">
             <select id="event" required>
                 <option value="">Elija una opcion</option>
-                <option value="E1">Medico</option>
-                <option value="E2">Genero</option>
-                <option value="E3">Tipo de signo</option>
+                <option value="E1">Orden A-Z</option>
+                <option value="E2">Orden Z-A</option>
                 <option value="E4">Todos</option>
             </select>
         </div>
@@ -35,7 +34,36 @@
     <button type="submit">Consultar</button>
     </main>
     <div class="conteiner">
-        <h4>lista</h4>
+      <table>
+        <tr>
+            <th>Id</th>
+            <th>Nombre</th>
+            <th>Apellidos</th>
+            <th>Telefono</th>
+            <th>Direccion</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Lola</td>
+            <td>Ruiz Lopez</td>
+            <td>8497459489</td>
+            <td>calle 80</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Pepito</td>
+            <td>Perez A</td>
+            <td>0384873719</td>
+            <td>calle 55</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Juanito</td>
+            <td>Rosales R</td>
+            <td>4738377463647</td>
+            <td>calle 10</td>
+        </tr>
+    </table>
     </div>
   </body>
 </html>

@@ -38,13 +38,33 @@ button{
   display: flex;
 }
 
+// inicio estilos paula
 .conteiner{
   width: 400px;
   height: 400px;
-  background: blue;
 }
 
 .form-group{
   display:flex;
 }
+
+table{
+  border-collapse: collapse;
+
+}
+  th{
+  border: 1px solid black;
+  padding: 20px;
+  
+}
+
+td{
+  border: 1px solid black;
+  padding: 20px;
+}
+
+td:hover{
+  background: #EEEEEE;
+}
+// final estilos paula
 
