@@ -1,25 +1,15 @@
-<!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width
-    , initial-scale=1.0"
-    />
-    <title>Formulario Medicos</title>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <link rel="stylesheet" href="../patient/style.css" />
-  </head>
-  <body>
-    <header>
-   
-    </header>
-    <main>
-      <h1>Registrar Medico</h1>
-      <form action="">
-        <label for="id">
+﻿@page
+@model HospiEnCasa.App.Frontend.Pages.RegMedicosModel
+@{
+    ViewData["Title"] = "Reg. Médicos";
+}
+<head>
+   <link rel="stylesheet" href="~/css/registroFamiliar.css">
+</head>
+<body>
+    <h1>REGISTRAR MÉDICOS</h1>   
+      <form action="" class="formulario">
+        <label for="id" class="formulario__label">
           <span>Número de identificación</span>
           <input
             type="text"
@@ -27,19 +17,23 @@
             id="id"
             required pattern="[0-9]{5,10}"
             title="Ingrese de 5 a 10 dígitos. No se permite otro tipo de carácteres."
+            class="formulario__input"
+            placeholder="Escribe el Id"
           />
         </label>
-        <label for="firstname">
-          <span>Nombres</span>
+        <label for="firstname" class="formulario__label">
+          <span>Nombre</span>
           <input
             type="text"
             name="firstname"
             id="firstname"
             required pattern="^[^ ][a-zA-ZÀ-ÿ ]{1,100}[^ ]$"
             title="No se permiten carácteres que no sean letras o espacios. También esta prohibido iniciar o acabar con espacios"
+            class="formulario__input"
+            placeholder="Escribe nombre"
           />
         </label>
-        <label for="lastname">
+        <label for="lastname" class="formulario__label">
           <span>Apellidos</span>
           <input
             type="text"
@@ -48,9 +42,11 @@
             required
             pattern="^[^ ][a-zA-ZÀ-ÿ ]{1,100}[^ ]$"
             title="No se permiten carácteres que no sean letras o espacios. También esta prohibido iniciar o acabar con espacios"
+            class="formulario__input"
+            placeholder="Escribe apellidos"
           />
         </label>
-        <label for="phonenumber">
+        <label for="phonenumber" class="formulario__label">
           <span>Número de teléfono</span>
           <input
             type="text"
@@ -59,9 +55,11 @@
             required
             pattern="[0-9]{10}"
             title="Ingresa 10 dígitos, ni más ni menos. No se permiten tampoco otro tipo de carácteres."
+            class="formulario__input"
+            placeholder="123456789"
           />
         </label>
-        <label for="genre">
+        <label for="genre" class="formulario__label">
           <fieldset>
             <legend>Género</legend>
             <label for="male">
@@ -74,20 +72,23 @@
             </label>
             <label for="other">
               <input type="radio" name="genre" id="other" />
-              <span>No binario</span>
+              <span>Otro</span>
             </label>
           </fieldset>
         </label>
-        <label for="speciality">
+        <label for="speciality" class="formulario__label">
           <span>Especialidad</span>
           <input 
             type="text" 
             name="speciality" 
             id="speciality" 
             required pattern="^[^][a-zA-ZÀ-ÿ ]{1,100}[^ ]$" 
-            title="No se permiten carácteres que no sean letras o espacios. También esta prohibido iniciar o acabar con espacios." />
+            title="No se permiten carácteres que no sean letras o espacios. También esta prohibido iniciar o acabar con espacios." 
+            class="formulario__input"
+            placeholder="Escribe especialidad"
+            />
         </label>
-        <label for="code">
+        <label for="code" class="formulario__label">
           <span>Codigo</span>
           <input 
             type="text" 
@@ -95,9 +96,11 @@
             id="code" 
             pattern="[0-9]{10}"
             title="Ingresa 10 dígitos, ni más ni menos. No se permiten tampoco otro tipo de carácteres."
+            class="formulario__input"
+            placeholder="123456789"
            />
         </label>
-        <label for="RegisterRethus">
+        <label for="RegisterRethus" class="formulario__label">
             <span>Registro Rethus</span>
             <input 
               type="text" 
@@ -105,10 +108,11 @@
               id="RegisterRethus" 
               pattern="[0-9]{10}"
               title="Ingresa 10 dígitos, ni más ni menos. No se permiten tampoco otro tipo de carácteres."
+             class="formulario__input"
+             placeholder="12345789"
              />
           </label>
-        <button type="submit">Crear Medico</button>
+        <button class="formulario__btn" type="submit">Crear</button>
       </form>
-    </main>
+  
   </body>
-</html>

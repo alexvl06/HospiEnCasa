@@ -74,3 +74,7 @@ C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debu
 C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.genruntimeconfig.cache
 C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.csproj.CopyComplete
 C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\RegPacientes.cshtml.g.cs
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\DetailPacientes.cshtml.g.cs
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\ListPacientes.cshtml.g.cs
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\RegFamiliares.cshtml.g.cs
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\RegMedicos.cshtml.g.cs

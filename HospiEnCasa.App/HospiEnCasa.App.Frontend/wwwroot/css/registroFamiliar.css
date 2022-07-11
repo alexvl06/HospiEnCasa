@@ -14,6 +14,29 @@ main {
 	padding: 40px;
 }
 
+table{
+    border-collapse: collapse;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  th{
+    border: 1px solid black;
+    padding: 20px;
+    background: #E1F2FB;
+  }
+  
+  td{
+    border: 1px solid black;
+    padding: 20px;
+    background: white;
+  }
+  
+  td:hover{
+    background: #EEEEEE;
+  }
+
 .formulario {
 	display: grid;
 	grid-template-columns: 1fr 1fr;

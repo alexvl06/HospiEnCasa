@@ -1,0 +1,55 @@
+﻿@page
+@model HospiEnCasa.App.Frontend.Pages.DetailPacientesModel
+@{
+    ViewData["Title"] = "Det. Paciente";
+}
+<head>
+   <link rel="stylesheet" href="~/css/registroFamiliar.css">
+ </head>
+<body>
+<h1>DETALLES PACIENTE</h1>
+    <form action="" class="formulario">
+        <label for="idPaciente" class="formulario__label">Id del Paciente:</label>
+        <input class="formulario__input" type="text" id="idPaciente" required pattern="[0-9]{5,10}"
+            title="Ingrese de 5 a 10 dígitos. No se permite otro tipo de carácteres." placeholder="123456789">
+        <input type="submit" value="Consultar" class="formulario__btn">
+    </form>
+    <table>
+        <tr>
+            <th>Nombre:</th>
+            <td>Lola</td>
+        </tr>
+        <tr>
+            <th>Apellidos:</th>
+            <td>Ruiz Lopez</td>
+        </tr>
+        <tr>
+            <th>Género:</th>
+            <td>Femenino</td>
+        </tr>
+        <tr>
+            <th>Teléfono:</th>
+            <td>8497459489</td>
+        </tr>
+        <tr>
+            <th>Fecha de Nacimiento:</th>
+            <td>22/10/1994</td>
+        </tr>
+        <tr>
+            <th>Dirección:</th>
+            <td>calle 80</td>
+        </tr>
+        <tr>
+            <th>Ciudad:</th>
+            <td>Barranquilla</td>
+        </tr>
+        <tr>
+            <th>Latitud:</th>
+            <td>10.4562</td>
+        </tr>
+        <tr>
+            <th>Longitud:</th>
+            <td>75.4568</td>
+        </tr>
+    </table>
+</body>

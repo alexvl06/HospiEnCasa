@@ -1,23 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-
+﻿@page
+@model HospiEnCasa.App.Frontend.Pages.RegFamiliaresModel
+@{
+     ViewData["Title"] = "Reg. Familiares";
+}
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Familiar Designado</title>
-    <link rel="stylesheet" href="registroFamiliar.css">
-
+   <link rel="stylesheet" href="~/css/registroFamiliar.css">
 </head>
-
 <body>
-    <main>
-        <form action="" class="formulario" id="formulario">
+    <h1>REGISTRAR FAMILIARES</h1>
+    <form action="" class="formulario" id="formulario">
             <!--Grupo: Id -->
             <div class="formulario__grupo  id="grupo__Id">
                 <label for="Id" class="formulario__label">Id</label>
                 <div class="formulario__grupo-input">
-                    <input type="text" class="formulario__input" name="Id" id="Id"placeholder="Escribe el Id">
+                    <input type="text" class="formulario__input" name="Id" id="Id"placeholder="Escribe el Id" required pattern="[0-9]{5,10}"
+            title="Ingrese de 5 a 10 dígitos. No se permite otro tipo de carácteres.">
                     <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
                 </div>
                 <p class="formulario__input-error">El Id solo puede tener números</p>
@@ -27,7 +24,8 @@
            <div class="formulario__grupo" id="grupo__nombre">
             <label for="nombre" class="formulario__label">Nombre</label>
             <div class="formulario__grupo-input">
-                <input type="text" class="formulario__input" name="nombre" id="nombre"placeholder="Escribe nombre">
+                <input type="text" class="formulario__input" name="nombre" id="nombre"placeholder="Escribe nombre" required pattern="^[^ ][a-zA-ZÀ-ÿ ]{1,100}[^ ]$"
+            title="No se permiten carácteres que no sean letras o espacios. También esta prohibido iniciar o acabar con espacios">
                 <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
             </div>
             <p class="formulario__input-error">El nombre solo puede tener letras</p>
@@ -37,7 +35,8 @@
           <div class="formulario__grupo" id="grupo__apellidos">
             <label for="apellidos" class="formulario__label">Apellidos</label>
             <div class="formulario__grupo-input">
-                <input type="text" class="formulario__input" name="apellidos" id="apellidos"placeholder="Escribe apellidos">
+                <input type="text" class="formulario__input" name="apellidos" id="apellidos"placeholder="Escribe apellidos" required pattern="^[^ ][a-zA-ZÀ-ÿ ]{1,100}[^ ]$"
+            title="No se permiten carácteres que no sean letras o espacios. También esta prohibido iniciar o acabar con espacios">
                 <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
             </div>
             <p class="formulario__input-error">Los apellidos solo pueden tener letras </p>
@@ -47,14 +46,15 @@
          <div class="formulario__grupo" id="grupo__numero de telefono">
             <label for="numero de telefono" class="formulario__label">Número de Teléfono</label>
             <div class="formulario__grupo-input">
-                <input type="text" class="formulario__input" name="numero de telefono" id="Número de teléfono"placeholder="123456789">
+                <input type="text" class="formulario__input" name="numero de telefono" id="Número de teléfono"placeholder="123456789" pattern="[0-9]{10}"
+            title="Ingresa 10 dígitos, ni más ni menos. No se permiten tampoco otro tipo de carácteres.">
                 <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
             </div>
             <p class="formulario__input-error">Solo se permiten números </p>
         </div>
 
          <!--Grupo: genero -->
-         <label for="Genero" class="formulario__label">Genero</label>
+         <label for="Genero" class="formulario__label">Género</label>
          <div class="formulario__grupo-input">
             <label for="Masculino">Masculino</label>
             <input type="radio" id="Masculino" name = "genero" value="Masculino" >
@@ -80,7 +80,8 @@
          <div class="formulario__grupo" id="grupo__parentesco">
             <label for="parentesco" class="formulario__label">Parentesco</label>
             <div class="formulario__grupo-input">
-                <input type="text" class="formulario__input" name="parentesco" id="parentesco"placeholder="Escribe parentesco">
+                <input type="text" class="formulario__input" name="parentesco" id="parentesco"placeholder="Escribe parentesco" required pattern="^[^ ][a-zA-ZÀ-ÿ ]{1,100}[^ ]$"
+            title="No se permiten carácteres que no sean letras o espacios. También esta prohibido iniciar o acabar con espacios">
                 <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
             </div>
             <p class="formulario__input-error">El parentesco solo pueden tener letras </p>
@@ -90,16 +91,9 @@
                 <p><i class="fa-solid fa-triangle-exclamation"></i> <b>Error:</b> El formulario tiene que estar completo </p>
             </div>
 
-            <div class="formulario__grupo formulario__grupo-btn-enviar">
-                <button type="submit" class="formulario__btn"> Guardar </button>
+                           <button type="submit" class="formulario__btn">Crear</button>
                 <p class="formulario__mensaje-exito" id="formulario__mensaje-exito"> El formulario se guardo exitosamente </p>
 
-            </div>
+           
         </form>
-    </main>
-
-    <script src="https://kit.fontawesome.com/bd4d3a52ad.js" crossorigin="anonymous"></script>
-
 </body>
-
-</html>

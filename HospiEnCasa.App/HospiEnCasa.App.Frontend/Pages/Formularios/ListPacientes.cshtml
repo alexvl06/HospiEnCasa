@@ -1,39 +1,28 @@
-<!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width
-    , initial-scale=1.0"
-    />
-    <title>Lista de pacientes</title>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <link rel="stylesheet" href="lista.css" />
-  </head>
-  <body>
-    <header>
-   
-    </header>
-    <main>
-      <h1>Lista de pacientes</h1>
-      <div class="form-group">
+﻿@page
+@model HospiEnCasa.App.Frontend.Pages.ListPacientesModel
+@{
+    ViewData["Title"] = "Lista Pacientes";
+}
+<head>
+   <link rel="stylesheet" href="~/css/registroFamiliar.css">
+ </head>
+<main>
+      <h1>LISTA DE PACIENTES</h1>
+      <form class="formulario">
         <div class="form-col-4">
-            <label for="event">Ordenar por: </label>
+            <label for="event" class="formulario__label">Ordenar por: </label>
         </div>
-        <div class="form-col-8">
+        <div class="form-col-8" class="formulario__input">
             <select id="event" required>
                 <option value="">Elija una opcion</option>
                 <option value="E1">Orden A-Z</option>
                 <option value="E2">Orden Z-A</option>
                 <option value="E4">Todos</option>
             </select>
-        </div>
+        </form>
     </div>
-    <button type="submit">Consultar</button>
     </main>
-    <div class="conteiner">
+    <div>
       <table>
         <tr>
             <th>Id</th>
@@ -65,5 +54,3 @@
         </tr>
     </table>
     </div>
-  </body>
-</html>
