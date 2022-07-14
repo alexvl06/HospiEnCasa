@@ -59,7 +59,6 @@ C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debu
 C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.TagHelpers.output.cache
 C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.RazorCoreGenerate.cache
 C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
-C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\Pacientes.cshtml.g.cs
 C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
 C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
 C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
@@ -78,3 +77,8 @@ C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp
 C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\ListPacientes.cshtml.g.cs
 C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\RegFamiliares.cshtml.g.cs
 C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\RegMedicos.cshtml.g.cs
+C:\Hospitalizacion\hospiencasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\DetailPacientes.cshtml.g.cs
+C:\Hospitalizacion\hospiencasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\ListPacientes.cshtml.g.cs
+C:\Hospitalizacion\hospiencasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\RegFamiliares.cshtml.g.cs
+C:\Hospitalizacion\hospiencasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\RegMedicos.cshtml.g.cs
+C:\Hospitalizacion\hospiencasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\RegPacientes.cshtml.g.cs

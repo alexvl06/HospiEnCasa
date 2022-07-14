@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Dfk1D2lAo2jarNM0/1gAR5WXCIZyjvbVtblksCJT0nA0ewq5Tb9g4KE82wkVDlwnvG/LkfABJXlNMEZiZ80EVw==",
+  "dgSpecHash": "q3qKyj0eNkOlJg4u50QrHAet0yYA4lzxnbHSfnLuzpX6oar3c6kgEbqztJX07Nryz0jiGWOEmD/UiUjE+4eP3Q==",
   "success": true,
-  "projectFilePath": "C:\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Frontend\\HospiEnCasa.App.Frontend.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Hospitalizacion\\hospiencasa\\hospiencasa.app\\hospiencasa.app.frontend\\HospiEnCasa.App.Frontend.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\julia\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512"
+  ],
   "logs": []
 }
