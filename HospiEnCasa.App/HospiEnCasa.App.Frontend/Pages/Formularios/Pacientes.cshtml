@@ -1,0 +1,25 @@
+﻿@page
+@model HospiEnCasa.App.Frontend.PacientesModel
+
+@{
+    ViewData["Title"] = "Pacientes";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Bienvenido al area de Pacientes</h1>
+    <ul class="navbar-nav flex-grow-1">
+        <li class="nav-item">
+            <a class="nav-link" asp-area="" asp-page="/Formularios/regPacientes">Registrar Pacientes</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" asp-area="" asp-page="/Formularios/DetailPacientes">Consultar Paciente</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" asp-area="" asp-page="/Formularios/Pacientes">Editar Paciente</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" asp-area="" asp-page="/Formularios/Pacientes">Borrar Paciente</a>
+        </li>
+    </ul>
+
+</div>

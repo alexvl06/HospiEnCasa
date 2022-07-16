@@ -82,3 +82,9 @@ C:\Hospitalizacion\hospiencasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debu
 C:\Hospitalizacion\hospiencasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\RegFamiliares.cshtml.g.cs
 C:\Hospitalizacion\hospiencasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\RegMedicos.cshtml.g.cs
 C:\Hospitalizacion\hospiencasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\RegPacientes.cshtml.g.cs
+C:\Hospitalizacion\hospiencasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\EditMedico.cshtml.g.cs
+C:\Hospitalizacion\hospiencasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\DeleteMedico.cshtml.g.cs
+C:\Hospitalizacion\hospiencasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\DetailMedico.cshtml.g.cs
+C:\Hospitalizacion\hospiencasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\Enfermera.cshtml.g.cs
+C:\Hospitalizacion\hospiencasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\Medicos.cshtml.g.cs
+C:\Hospitalizacion\hospiencasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\Pacientes.cshtml.g.cs

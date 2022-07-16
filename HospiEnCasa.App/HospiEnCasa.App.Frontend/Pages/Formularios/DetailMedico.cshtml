@@ -1,0 +1,37 @@
+﻿@page
+@model HospiEnCasa.App.Frontend.Pages.DetailMedicoModel
+@{
+    ViewData["Title"] = "Det. Medicos";
+}
+<head>
+   <link rel="stylesheet" href="~/css/registroFamiliar.css">
+ </head>
+<body>
+<h1>DETALLES MEDICO</h1>
+    <form action="" class="formulario">
+        <label for="idMedico" class="formulario__label">Id del Medico:</label>
+        <input class="formulario__input" type="text" id="idMedico" required pattern="[0-9]{5,10}"
+            title="Ingrese de 5 a 10 dígitos. No se permite otro tipo de carácteres." placeholder="123456789">
+        <input type="submit" value="Consultar" class="formulario__btn">
+    </form>
+    <table>
+        <tr>
+            <th>Nombre:</th>
+            <td>Lola</td>
+        </tr>
+        <tr>
+            <th>Apellidos:</th>
+            <td>Ruiz Lopez</td>
+        </tr>
+        <tr>
+            <th>Género:</th>
+            <td>Femenino</td>
+        </tr>
+        <tr>
+            <th>Teléfono:</th>
+            <td>8497459489</td>
+        </tr>
+        
+        
+    </table>
+</body>
