@@ -10,45 +10,39 @@ namespace HospiEnCasa.App.Persistencia
             _appContext=appContext;
         }
         FamiliarDesignado IRepositorioFamiliar.AddFamiliar(FamiliarDesignado familiar){
-            /*var pacienteAdicionado = _appContext.Pacientes.Add(paciente);
+            var familiarAdicionado = _appContext.FamiliaresDesignados.Add(familiar);
             _appContext.SaveChanges();
-            return pacienteAdicionado.Entity;*/
+            return familiarAdicionado.Entity;
         }
         void IRepositorioFamiliar.DeleteFamiliar(int idFamiliar){
-            /*var pacienteEncontrado = _appContext.Pacientes.FirstOrDefault(p => p.Id == idPaciente);
-            if(pacienteEncontrado==null)
+            var familiarEncontrado = _appContext.FamiliaresDesignados.FirstOrDefault(f => f.Id == idFamiliar);
+            if(familiarEncontrado==null)
                 return;
-            _appContext.Pacientes.Remove(pacienteEncontrado);
+            _appContext.FamiliaresDesignados.Remove(familiarEncontrado);
             _appContext.SaveChanges();
 
-            */
+            
         }
         
         FamiliarDesignado IRepositorioFamiliar.GetFamiliar(int idFamiliar){
-            //return _appContext.Pacientes.FirstOrDefault(p=> p.Id == idPaciente);
+            return _appContext.FamiliaresDesignados.FirstOrDefault(f=> f.Id == idFamiliar);
         }
         FamiliarDesignado IRepositorioFamiliar.UpdateFamiliar(FamiliarDesignado familiar){
-            /*var pacienteEncontrado = _appContext.Pacientes.FirstOrDefault(p => p.Id == paciente.Id);
-            if(pacienteEncontrado != null){
-                pacienteEncontrado.Nombre = paciente.Nombre;
-                pacienteEncontrado.Apellidos = paciente.Apellidos;
-                pacienteEncontrado.NumeroTelefono = paciente.NumeroTelefono;
-                pacienteEncontrado.Genero = paciente.Genero;
-                pacienteEncontrado.Direccion = paciente.Direccion;
-                pacienteEncontrado.Latitud = paciente.Latitud;
-                pacienteEncontrado.Longitud = paciente.Longitud;
-                pacienteEncontrado.Ciudad =  paciente.Ciudad;
-                pacienteEncontrado.FechaNacimiento = paciente.FechaNacimiento;
-                pacienteEncontrado.FamiliarDesignado = paciente.FamiliarDesignado;
-                pacienteEncontrado.Enfermera = paciente.Enfermera;
-                pacienteEncontrado.Medico = paciente.Medico;
-                pacienteEncontrado.Historia = paciente.Historia;                
+            var familiarEncontrado = _appContext.FamiliaresDesignados.FirstOrDefault(f => f.Id == familiar.Id);
+            if(familiarEncontrado != null){
+                familiarEncontrado.Nombre = familiar.Nombre;
+                familiarEncontrado.Apellidos = familiar.Apellidos;
+                familiarEncontrado.NumeroTelefono = familiar.NumeroTelefono;
+                familiarEncontrado.Genero = familiar.Genero;
+
+                familiarEncontrado.Parentesco = familiar.Parentesco;
+                familiarEncontrado.Correo =  familiar.Correo;                
             
                 
                 _appContext.SaveChanges();
             }
-            return pacienteEncontrado;
-                */
+            return familiarEncontrado;
+                
         }
     }    
 }

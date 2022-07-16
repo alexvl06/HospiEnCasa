@@ -16,13 +16,13 @@ namespace HospiEnCasa.App.Frontend.Pages
 
         public Paciente paciente {get;set;}
         public int IdPaciente{get;set;}
-        public string FechaNac {get;set;}
+             
+
         public void OnGet(int idPaciente)
         {
             IdPaciente=idPaciente;
             paciente = repositorioPaciente.GetPaciente(idPaciente);  
-            
-            FechaNac = paciente.FechaNacimiento.ToShortDateString();          
+                    
         }
     }
 }

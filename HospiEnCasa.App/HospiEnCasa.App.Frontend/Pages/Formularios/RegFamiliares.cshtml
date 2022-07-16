@@ -8,13 +8,13 @@
 </head>
 <body>
     <h1>REGISTRAR FAMILIARES</h1>
-    <form action="" class="formulario" id="formulario">
+    <form action="" method="post" class="formulario" id="formulario">
             <!--Grupo: Id -->
             <div class="formulario__grupo  id="grupo__Id">
                 <label for="Id" class="formulario__label">Id</label>
                 <div class="formulario__grupo-input">
-                    <input type="text" class="formulario__input" name="Id" id="Id"placeholder="Escribe el Id" required pattern="[0-9]{5,10}"
-            title="Ingrese de 5 a 10 dígitos. No se permite otro tipo de carácteres.">
+                    <input type="text" class="formulario__input" name="" id="Id"placeholder="Escribe el Id"  pattern="[0-9]{1,10}"
+            title="Ingrese hasta 10 dígitos. No se permite otro tipo de carácteres.">
                     <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
                 </div>
                 <p class="formulario__input-error">El Id solo puede tener números</p>
@@ -24,7 +24,7 @@
            <div class="formulario__grupo" id="grupo__nombre">
             <label for="nombre" class="formulario__label">Nombre</label>
             <div class="formulario__grupo-input">
-                <input type="text" class="formulario__input" name="nombre" id="nombre"placeholder="Escribe nombre" required pattern="^[^ ][a-zA-ZÀ-ÿ ]{1,100}[^ ]$"
+                <input type="text" class="formulario__input" asp-for="familiarDesignado.Nombre" id="nombre"placeholder="Escribe nombre" required pattern="^[^ ][a-zA-ZÀ-ÿ ]{1,100}[^ ]$"
             title="No se permiten carácteres que no sean letras o espacios. También esta prohibido iniciar o acabar con espacios">
                 <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
             </div>
@@ -35,7 +35,7 @@
           <div class="formulario__grupo" id="grupo__apellidos">
             <label for="apellidos" class="formulario__label">Apellidos</label>
             <div class="formulario__grupo-input">
-                <input type="text" class="formulario__input" name="apellidos" id="apellidos"placeholder="Escribe apellidos" required pattern="^[^ ][a-zA-ZÀ-ÿ ]{1,100}[^ ]$"
+                <input type="text" class="formulario__input" asp-for="familiarDesignado.Apellidos" id="apellidos"placeholder="Escribe apellidos" required pattern="^[^ ][a-zA-ZÀ-ÿ ]{1,100}[^ ]$"
             title="No se permiten carácteres que no sean letras o espacios. También esta prohibido iniciar o acabar con espacios">
                 <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
             </div>
@@ -46,7 +46,7 @@
          <div class="formulario__grupo" id="grupo__numero de telefono">
             <label for="numero de telefono" class="formulario__label">Número de Teléfono</label>
             <div class="formulario__grupo-input">
-                <input type="text" class="formulario__input" name="numero de telefono" id="Número de teléfono"placeholder="123456789" pattern="[0-9]{10}"
+                <input type="text" class="formulario__input" asp-for="familiarDesignado.NumeroTelefono" id="Número de teléfono"placeholder="123456789" pattern="[0-9]{10}"
             title="Ingresa 10 dígitos, ni más ni menos. No se permiten tampoco otro tipo de carácteres.">
                 <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
             </div>
@@ -57,11 +57,11 @@
          <label for="Genero" class="formulario__label">Género</label>
          <div class="formulario__grupo-input">
             <label for="Masculino">Masculino</label>
-            <input type="radio" id="Masculino" name = "genero" value="Masculino" >
+            <input type="radio" id="Masculino" asp-for = "familiarDesignado.Genero" value="Masculino" >
             <label for="Femenino">Femenino</label>
-            <input type="radio" id="Femenino" name ="genero" value="Femenino" >
+            <input type="radio" id="Femenino" asp-for ="familiarDesignado.Genero" value="Femenino" >
             <label for="Otro">Otro</label>
-            <input type="radio" id="Otro" name ="genero" value="Otro" >
+            <input type="radio" id="Otro" asp-for ="familiarDesignado.Genero" value="Otro" >
             <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
             <p class="formulario__input-error">Se debe seleccionar una opción </p>
         </div>
@@ -70,7 +70,7 @@
          <div class="formulario__grupo" id="grupo__correo electronico">
             <label for="correo electronico" class="formulario__label">Correo Electrónico</label>
             <div class="formulario__grupo-input">
-                <input type="email" class="formulario__input" name="correo electronico" id="correo electronico"placeholder="correo@correo.com">
+                <input type="email" class="formulario__input" asp-for="familiarDesignado.Correo" id="correo electronico"placeholder="correo@correo.com">
                 <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
             </div>
             <p class="formulario__input-error">El correo electronico solo pueden tener letras, números, puntos, guiones </p>
@@ -80,7 +80,7 @@
          <div class="formulario__grupo" id="grupo__parentesco">
             <label for="parentesco" class="formulario__label">Parentesco</label>
             <div class="formulario__grupo-input">
-                <input type="text" class="formulario__input" name="parentesco" id="parentesco"placeholder="Escribe parentesco" required pattern="^[^ ][a-zA-ZÀ-ÿ ]{1,100}[^ ]$"
+                <input type="text" class="formulario__input" asp-for="familiarDesignado.Parentesco" id="parentesco"placeholder="Escribe parentesco" required pattern="^[^ ][a-zA-ZÀ-ÿ ]{1,100}[^ ]$"
             title="No se permiten carácteres que no sean letras o espacios. También esta prohibido iniciar o acabar con espacios">
                 <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
             </div>
