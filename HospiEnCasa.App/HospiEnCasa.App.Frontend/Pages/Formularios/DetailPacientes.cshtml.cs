@@ -4,13 +4,25 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using HospiEnCasa.App.Dominio;
+using HospiEnCasa.App.Persistencia;
 
 namespace HospiEnCasa.App.Frontend.Pages
 {
     public class DetailPacientesModel : PageModel
     {
-        public void OnGet()
+        
+        private IRepositorioPaciente repositorioPaciente = new RepositorioPaciente(new Persistencia.AppContext());
+
+        public Paciente paciente {get;set;}
+        public int IdPaciente{get;set;}
+        public string FechaNac {get;set;}
+        public void OnGet(int idPaciente)
         {
+            IdPaciente=idPaciente;
+            paciente = repositorioPaciente.GetPaciente(idPaciente);  
+            
+            FechaNac = paciente.FechaNacimiento.ToShortDateString();          
         }
     }
 }

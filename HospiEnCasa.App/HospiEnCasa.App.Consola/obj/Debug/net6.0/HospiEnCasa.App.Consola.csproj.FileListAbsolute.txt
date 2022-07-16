@@ -65,3 +65,4 @@
 /home/inter-telco/Documents/Alexis/personal/mintic/HospiEnCasa/HospiEnCasa.App/HospiEnCasa.App.Consola/obj/Debug/net6.0/HospiEnCasa.App.Consola.pdb
 /home/inter-telco/Documents/Alexis/personal/mintic/HospiEnCasa/HospiEnCasa.App/HospiEnCasa.App.Consola/obj/Debug/net6.0/HospiEnCasa.App.Consola.genruntimeconfig.cache
 /home/inter-telco/Documents/Alexis/personal/mintic/HospiEnCasa/HospiEnCasa.App/HospiEnCasa.App.Consola/obj/Debug/net6.0/ref/HospiEnCasa.App.Consola.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\obj\Debug\net6.0\HospiEnCasa.App.Consola.pdb
