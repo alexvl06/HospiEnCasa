@@ -2,6 +2,7 @@ namespace HospiEnCasa.App.Dominio
 {
     public enum Genero{
         masculino,
-        femenino
+        femenino,
+        otro
     }
 }
