@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using HospiEnCasa.App.Persistencia;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace HospiEnCasa.App.Frontend
 {
@@ -13,7 +15,11 @@ namespace HospiEnCasa.App.Frontend
     {
         public static void Main(string[] args)
         {
-            CreateHostBuilder(args).Build().Run();
+            var app = CreateHostBuilder(args).Build();
+            app.Run();
+            
+
+
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
@@ -22,5 +28,6 @@ namespace HospiEnCasa.App.Frontend
                 {
                     webBuilder.UseStartup<Startup>();
                 });
+
     }
 }

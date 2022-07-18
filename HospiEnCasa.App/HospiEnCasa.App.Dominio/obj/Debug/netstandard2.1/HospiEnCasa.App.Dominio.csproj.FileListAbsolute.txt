@@ -17,3 +17,13 @@ C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Dominio\obj\Debug\netstandard
 C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Dominio\obj\Debug\netstandard2.1\HospiEnCasa.App.Dominio.csproj.CoreCompileInputs.cache
 C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Dominio\obj\Debug\netstandard2.1\HospiEnCasa.App.Dominio.dll
 C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Dominio\obj\Debug\netstandard2.1\HospiEnCasa.App.Dominio.pdb
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Dominio\bin\Debug\netstandard2.1\HospiEnCasa.App.Dominio.deps.json
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Dominio\bin\Debug\netstandard2.1\HospiEnCasa.App.Dominio.dll
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Dominio\bin\Debug\netstandard2.1\HospiEnCasa.App.Dominio.pdb
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Dominio\obj\Debug\netstandard2.1\HospiEnCasa.App.Dominio.csproj.AssemblyReference.cache
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Dominio\obj\Debug\netstandard2.1\HospiEnCasa.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Dominio\obj\Debug\netstandard2.1\HospiEnCasa.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Dominio\obj\Debug\netstandard2.1\HospiEnCasa.App.Dominio.AssemblyInfo.cs
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Dominio\obj\Debug\netstandard2.1\HospiEnCasa.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Dominio\obj\Debug\netstandard2.1\HospiEnCasa.App.Dominio.dll
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Dominio\obj\Debug\netstandard2.1\HospiEnCasa.App.Dominio.pdb
