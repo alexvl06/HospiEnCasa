@@ -209,3 +209,4 @@ C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.A
 C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.pdb
 C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.genruntimeconfig.cache
 C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\ListMedicos.cshtml.g.cs

@@ -7,8 +7,18 @@
     <title>@ViewData["Title"] - HospiEnCasa</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
-    
+
     <style>
+        * {
+            box-sizing: border-box;
+            padding: 0%;
+            margin: 0%;
+        }
+
+        html {
+            font-size: 65.2%;
+        }
+
         body {
             background-image: url("img/Registro.jpg");
             background-size: cover;
@@ -19,15 +29,11 @@
         }
 
         header {
-            background-color: cornflowerblue;
+            background-color: cornflowerblue !important;
         }
 
-        .navbar {
-            padding: 2rem 0;
-        }
-
-        .navbar a {
-            color: white;
+        img {
+            margin: 1rem;
         }
 
         .logo-nav-container {
@@ -45,58 +51,71 @@
 
         .navigation ul li {
             display: inline-block;
+            margin: 3px;
         }
 
         .navigation ul li a {
             transition: all 0.4s linear;
             border-radius: 5px;
+            color: white !important;
+
         }
 
         .navigation ul li a:hover {
             background: darkgray;
+            color: black !important;
         }
+
         .footer {
-    background:darkgray ;
-    padding: 1rem 0;
-    text-align: center;
-    margin-top: 9rem;
+            background: darkgray;
+            padding: 1rem 0;
+            text-align: center;
+            margin-top: 9rem;
         }
-       
     </style>
 </head>
 
 <body>
-  
+
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm border-bottom box-shadow mb-3">
-            <div class="logo-nav-container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index"><img src="../img/HC.png" alt="Logo" height="100px" height="56px"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" asp-page="/Index"><img src="../img/HC.png" alt="Logo" height="80px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navigation navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                    <ul class="navbar-nav flex-grow-1">
+                <div class="navigation collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-page="/Formularios/RegPacientes">Registrar Pacientes</a>
+                            <a class="nav-link" asp-page="/Formularios/RegPacientes">Registrar Pacientes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-page="/Formularios/ListPacientes">Lista de Pacientes</a>
+                            <a class="nav-link" asp-page="/Formularios/ListPacientes">Lista de Pacientes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-page="/Formularios/DetailPacientes">Detalles de Pacientes</a>
+                            <a class="nav-link" asp-page="/Formularios/DetailPacientes">Detalles de
+                                Pacientes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-page="/Formularios/RegMedicos">Registrar Médicos</a>
+                            <a class="nav-link" asp-page="/Formularios/RegMedicos">Registrar Médicos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-page="/Formularios/RegFamiliares">Registrar Familiares</a>
+                            <a class="nav-link" asp-page="/Formularios/ListMedicos">Consultar Médicos</a>
                         </li>
-                        
+                        <li class="nav-item">
+                            <a class="nav-link" asp-page="/Formularios/RegFamiliares">Registrar Familiares</a>
+                        </li>
+
                     </ul>
                 </div>
             </div>
         </nav>
+
+
+
     </header>
     <div class="container">
         <main role="main" class="pb-3">
@@ -116,7 +135,7 @@
 
     @RenderSection("Scripts", required: false)
 
-   
+
 </body>
 
 </html>

@@ -1,13 +1,13 @@
-﻿@page
-@model HospiEnCasa.App.Frontend.Pages.ListPacientesModel
+@page
+@model HospiEnCasa.App.Frontend.Pages.ListMedicosModel
 @{
-    ViewData["Title"] = "Lista Pacientes";
+    ViewData["Title"] = "Lista Medicos";
 }
 <head>
    <link rel="stylesheet" href="~/css/formStyle.css">
  </head>
 <main>
-      <h1>LISTA DE PACIENTES</h1>
+      <h1>LISTA DE MÉDICOS</h1>
       <form class="formulario">
         <div class="form-col-4">
             <label for="event" class="formulario__label">Ordenar por: </label>
@@ -29,15 +29,15 @@
             <th>Nombre</th>
             <th>Apellidos</th>
             <th>Telefono</th>
-            <th>Direccion</th>
+            <th>Especialidad</th>
         </tr>
-        @foreach(var paciente in Model.Pacientes){
+        @foreach(var medico in Model.Medicos){
         <tr>
-            <td>@paciente.Id</td>
-            <td>@paciente.Nombre</td>
-            <td>@paciente.Apellidos</td>
-            <td>@paciente.NumeroTelefono</td>
-            <td>@paciente.Direccion</td>
+            <td>@medico.Id</td>
+            <td>@medico.Nombre</td>
+            <td>@medico.Apellidos</td>
+            <td>@medico.NumeroTelefono</td>
+            <td>@medico.Especialidad</td>
         </tr>
         }
 
