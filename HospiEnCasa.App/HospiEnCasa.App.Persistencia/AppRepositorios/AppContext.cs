@@ -20,7 +20,7 @@ namespace HospiEnCasa.App.Persistencia
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Data Source=LAPTOP-33TAF8JP;Initial Catalog=HospiEnCasaDB;user id=sa;password=Argenis0rtiz.");
+                optionsBuilder.UseSqlServer("Data Source=LAPTOP-33TAF8JP;Initial Catalog=HospiEnCasaDB");
             }
         }
 
