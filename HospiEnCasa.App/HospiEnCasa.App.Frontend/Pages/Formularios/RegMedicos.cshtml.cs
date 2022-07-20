@@ -12,6 +12,7 @@ namespace HospiEnCasa.App.Frontend.Pages
     public class RegMedicosModel : PageModel
     {
         private IRepositorioMedico repositorioMedico= new RepositorioMedico(new Persistencia.AppContext());
+
         [BindProperty]
         public  Medico medico {get;set;}
 

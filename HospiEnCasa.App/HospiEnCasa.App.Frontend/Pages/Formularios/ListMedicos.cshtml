@@ -3,12 +3,13 @@
 @{
     ViewData["Title"] = "Lista Medicos";
 }
+
 <head>
-   <link rel="stylesheet" href="~/css/formStyle.css">
- </head>
+    <link rel="stylesheet" href="~/css/formStyle.css">
+</head>
 <main>
-      <h1>LISTA DE MÉDICOS</h1>
-      <form class="formulario">
+    <h1>LISTA DE MÉDICOS</h1>
+    <form class="formulario">
         <div class="form-col-4">
             <label for="event" class="formulario__label">Ordenar por: </label>
         </div>
@@ -19,11 +20,11 @@
                 <option value="E2">Orden Z-A</option>
                 <option value="E4">Todos</option>
             </select>
-        </form>
+    </form>
     </div>
-    </main>
-    <div>
-      <table>
+</main>
+<div>
+    <table>
         <tr>
             <th>Id</th>
             <th>Nombre</th>
@@ -31,15 +32,22 @@
             <th>Telefono</th>
             <th>Especialidad</th>
         </tr>
-        @foreach(var medico in Model.Medicos){
-        <tr>
-            <td>@medico.Id</td>
-            <td>@medico.Nombre</td>
-            <td>@medico.Apellidos</td>
-            <td>@medico.NumeroTelefono</td>
-            <td>@medico.Especialidad</td>
-        </tr>
+        @foreach (var medico in Model.Medicos)
+        {
+            <tr>
+                <td>@medico.Id</td>
+                <td>@medico.Nombre</td>
+                <td>@medico.Apellidos</td>
+                <td>@medico.NumeroTelefono</td>
+                <td>@medico.Especialidad</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@medico.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@medico.">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@medico.Id">Delete</a>
+
+                </td>
+            </tr>
         }
 
     </table>
-    </div>
+</div>
