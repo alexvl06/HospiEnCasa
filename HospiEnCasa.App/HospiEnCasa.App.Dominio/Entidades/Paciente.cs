@@ -10,11 +10,13 @@ namespace HospiEnCasa.App. Dominio
         public Enfermera Enfermera{get;set;}
         public Medico Medico{get;set;}
         public string Direccion{get;set;}
-        public float Latitud{get;set;}
-        public float Longitud{get;set;}
+        public float? Latitud{get;set;}
+        public float? Longitud{get;set;}
         public string Ciudad{get;set;}
+        
         public DateTime FechaNacimiento{get;set;}
 
+        public int MedicoId { get; set; }
     
     }
 }

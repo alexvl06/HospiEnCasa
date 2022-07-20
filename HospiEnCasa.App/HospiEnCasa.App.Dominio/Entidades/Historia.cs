@@ -8,6 +8,10 @@ namespace HospiEnCasa.App. Dominio
         public int  Id{get;set;}
         public string Diagnostico{get;set;}
         public string Entorno{get;set;}
+        
+        public int PacienteId { get; set; }
+
+        public Paciente? paciente {get; set;}
 
     }
 }

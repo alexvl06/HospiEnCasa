@@ -22,6 +22,7 @@ namespace HospiEnCasa.App.Frontend.Pages
         public void OnGet()
         {
             paciente = new Paciente();
+            medicos = repositorioMedico.GetAllMedicos();
             ViewData["MedicoId"] = new SelectList(medicos, "Id", "Apellidos");
         }
         public void OnPost()

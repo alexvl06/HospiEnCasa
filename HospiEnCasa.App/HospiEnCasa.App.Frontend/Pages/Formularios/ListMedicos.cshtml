@@ -31,6 +31,7 @@
             <th>Apellidos</th>
             <th>Telefono</th>
             <th>Especialidad</th>
+            <th>Opciones</th>
         </tr>
         @foreach (var medico in Model.Medicos)
         {
@@ -40,10 +41,11 @@
                 <td>@medico.Apellidos</td>
                 <td>@medico.NumeroTelefono</td>
                 <td>@medico.Especialidad</td>
+
                 <td>
-                    <a asp-action="Edit" asp-route-id="@medico.Id">Edit</a> |
-                    <a asp-action="Details" asp-route-id="@medico.">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@medico.Id">Delete</a>
+                    <a asp-action="Edit" asp-route-id="@medico.Id">Editar</a> |
+                    <a asp-action="Details" asp-route-id="@medico.">Detalles</a> |
+                    <a asp-action="Delete" asp-route-id="@medico.Id">Borrar</a>
 
                 </td>
             </tr>
