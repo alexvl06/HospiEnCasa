@@ -13,11 +13,23 @@ namespace HospiEnCasa.App.Frontend.Pages
     public class ListPacientesModel : PageModel
     {
         private IRepositorioPaciente repositorioPaciente = new RepositorioPaciente(new Persistencia.AppContext());
-        public IEnumerable<Paciente> Pacientes {get; set;}
+        private IRepositorioMedico repositorioMedico = new RepositorioMedico(new Persistencia.AppContext());
+        public IEnumerable<Paciente> Pacientes { get; set; }
 
-        public void OnGet()
+        public void OnGet(int? id)
         {
-            Pacientes = repositorioPaciente.GetAllPacientes();
+            if (id == null)
+            {
+                Pacientes = repositorioPaciente.GetAllPacientes();
+            }
+            else
+            {
+                Pacientes = repositorioMedico.GetPatientsByDoctorId(id);
+
+            }
+
+
+
         }
     }
 }
