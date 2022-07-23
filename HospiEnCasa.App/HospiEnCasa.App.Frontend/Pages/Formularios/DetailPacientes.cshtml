@@ -1,0 +1,59 @@
+﻿@page
+@model HospiEnCasa.App.Frontend.Pages.DetailPacientesModel
+@{
+    ViewData["Title"] = "Det. Paciente";
+}
+<head>
+   <link rel="stylesheet" href="~/css/formStyle.css">
+ </head>
+<body>
+<h1>DETALLES PACIENTE</h1>
+    <form action="" class="formulario" method="get">
+        <label for="idPaciente" class="formulario__label">Id del Paciente:</label>
+        <input class="formulario__input" type="text" id="idPaciente" required pattern="[0-9]{1,10}"
+            title="Ingrese números. No se permite otro tipo de carácteres." placeholder="123456789"
+            name="idPaciente"  asp-for="IdPaciente">
+        <input type="submit" value="Consultar" class="formulario__btn">
+    </form>
+    @if(Model.paciente != null){
+
+        <table>
+        <tr>
+            <th>Nombre:</th>
+            <td>@Model.paciente.Nombre</td>
+        </tr>
+        <tr>
+            <th>Apellidos:</th>
+            <td>@Model.paciente.Apellidos</td>
+        </tr>
+        <tr>
+            <th>Género:</th>
+            <td>@Model.paciente.Genero</td>
+        </tr>
+        <tr>
+            <th>Teléfono:</th>
+            <td>@Model.paciente.NumeroTelefono</td>
+        </tr>
+        <tr>
+            <th>Fecha de Nacimiento:</th>
+            <td>@Model.paciente.FechaNacimiento.ToShortDateString()</td>
+        </tr>
+        <tr>
+            <th>Dirección:</th>
+            <td>@Model.paciente.Direccion</td>
+        </tr>
+        <tr>
+            <th>Ciudad:</th>
+            <td>@Model.paciente.Ciudad</td>
+        </tr>
+        <tr>
+            <th>Latitud:</th>
+            <td>@Model.paciente.Latitud</td>
+        </tr>
+        <tr>
+            <th>Longitud:</th>
+            <td>@Model.paciente.Longitud</td>
+        </tr>
+    </table>
+    }
+</body>

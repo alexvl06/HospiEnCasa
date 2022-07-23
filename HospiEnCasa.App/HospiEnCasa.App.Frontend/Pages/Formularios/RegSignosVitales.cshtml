@@ -1,0 +1,110 @@
+﻿@page
+@model HospiEnCasa.App.Frontend.Pages.RegSignosVitalesModel
+@{
+    ViewData["Title"] = "Reg. Signos Vitales";
+}
+<head>
+    <link rel="stylesheet" href="~/css/formStyle.css">
+</head>
+<body>
+    <h1>REGISTRAR SIGNOS VITALES</h1>
+    <form action="" class="formulario" method="get">
+        <label for="idPaciente" class="formulario__label">Id del Paciente:</label>
+        <input class="formulario__input" type="text" id="idPaciente" required pattern="[0-9]{1,10}"
+            title="Ingrese números. No se permite otro tipo de carácteres." placeholder="1234567890"
+            name="idPaciente"
+            asp-for="IdPaciente"
+           >
+        
+        <input type="submit" value="Consultar" class="formulario__btn">
+    </form>
+    @if(Model.paciente!=null)
+    {
+        <form action="" method="post" class="formulario">
+         <label for="nombre" class="formulario__label">
+            <span>Nombre</span>
+            <input class="formulario__input" type="text"  id="nombre" value="@Model.paciente.Nombre" disabled>
+        </label>
+        <label for="nombre" class="formulario__label">
+            <span>Apellidos</span>
+            <input class="formulario__input" type="text"  id="nombre" value="@Model.paciente.Apellidos" disabled>
+        </label>
+         <label for="oxy" class="formulario__label">
+            <span>Oximetría</span>
+            <input class="formulario__input" type="number"  id="oxy" 
+                title="Ingrese números. No se permite otro tipo de carácteres."
+                min="0"
+                max="100"
+                placeholder="%SpO2"
+                asp-for="oximetria.Valor">
+        </label>
+        <label for="oxy" class="formulario__label">
+            <span>Frecuencia Respiratoria</span>
+            <input class="formulario__input" type="number"  id="freq-respiratoria" 
+                title="Ingrese números. No se permite otro tipo de carácteres."
+                min="0"
+                max="100"
+                placeholder="10"
+                asp-for="freqRespiratoria.Valor">
+        </label>
+        <label for="bpm" class="formulario__label">
+            <span>Frecuencia Cardiaca</span>
+            <input class="formulario__input" type="number"  id="bpm" 
+                title="Ingrese números. No se permite otro tipo de carácteres."
+                min="0"
+                max="500"
+                placeholder="PPM"
+                asp-for="freqCardiaca.Valor">
+        </label>
+        <label for="temp" class="formulario__label">
+            <span>Temperatura</span>
+            <input class="formulario__input" type="number"  id="temp" 
+                title="Ingrese números. No se permite otro tipo de carácteres."
+                min="30"
+                max="50"
+                placeholder="°C"
+                asp-for="temperatura.Valor">
+        </label>
+        <fieldset>
+            <legend>Presión Arterial</legend>
+            <label for="sisto" class="formulario__label">
+            <span>Sistólica</span>
+            <input class="formulario__input" type="number"  id="sisto" 
+                title="Ingrese números. No se permite otro tipo de carácteres."
+                min="0"
+                max="200"
+                placeholder="mmHg"
+                asp-for="sistolica.Valor">
+            </label>
+            <label for="diasto" class="formulario__label">
+            <span>Diastólica</span>
+            <input class="formulario__input" type="number"  id="diasto" 
+                title="Ingrese números. No se permite otro tipo de carácteres."
+                min="0"
+                max="200"
+                placeholder="mmHg"
+                asp-for="diastolica.Valor">
+            </label>
+        </fieldset>
+        <label for="glicemia" class="formulario__label">
+            <span>Glicemia</span>
+            <input class="formulario__input" type="number"  id="glicemia" 
+                title="Ingrese números. No se permite otro tipo de carácteres."
+                min="0"
+                max="500"
+                placeholder="mg/dl"
+                asp-for="glicemia.Valor">
+            </label>
+        <input type="submit" value="Registrar" class="formulario__btn">
+    </form>
+    /*@Model.oximetria.Valor
+    @Model.freqCardiaca.Valor
+    @Model.freqRespiratoria.Valor
+    @Model.temperatura.Valor
+    @Model.sistolica.Valor
+    @Model.diastolica.Valor
+    @Model.glicemia.Valor*/
+    }
+
+    
+</body>

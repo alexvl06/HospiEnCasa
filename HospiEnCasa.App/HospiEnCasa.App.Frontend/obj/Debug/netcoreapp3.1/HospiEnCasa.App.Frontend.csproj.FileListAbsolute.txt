@@ -1,0 +1,303 @@
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.exe
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.deps.json
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.runtimeconfig.json
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.runtimeconfig.dev.json
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.pdb
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.Views.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.Views.pdb
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.csprojAssemblyReference.cache
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.AssemblyInfoInputs.cache
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.AssemblyInfo.cs
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.csproj.CoreCompileInputs.cache
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.MvcApplicationPartsAssemblyInfo.cache
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.RazorAssemblyInfo.cache
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.RazorAssemblyInfo.cs
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.TagHelpers.input.cache
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.TagHelpers.output.cache
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.RazorCoreGenerate.cache
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.RazorTargetAssemblyInfo.cache
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.RazorTargetAssemblyInfo.cs
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.Views.pdb
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\staticwebassets\HospiEnCasa.App.Frontend.StaticWebAssets.Manifest.cache
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\staticwebassets\HospiEnCasa.App.Frontend.StaticWebAssets.xml
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.pdb
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.genruntimeconfig.cache
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.csproj.CopyComplete
+C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\bin\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.StaticWebAssets.xml
+C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\bin\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.exe
+C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\bin\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.deps.json
+C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\bin\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.runtimeconfig.json
+C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\bin\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.runtimeconfig.dev.json
+C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\bin\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.dll
+C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\bin\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.pdb
+C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\bin\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.Views.dll
+C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\bin\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.Views.pdb
+C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.csproj.AssemblyReference.cache
+C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.AssemblyInfoInputs.cache
+C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.AssemblyInfo.cs
+C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.csproj.CoreCompileInputs.cache
+C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.MvcApplicationPartsAssemblyInfo.cache
+C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.RazorAssemblyInfo.cache
+C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.RazorAssemblyInfo.cs
+C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\staticwebassets\HospiEnCasa.App.Frontend.StaticWebAssets.Manifest.cache
+C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.TagHelpers.input.cache
+C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.TagHelpers.output.cache
+C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.RazorCoreGenerate.cache
+C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\Pacientes.cshtml.g.cs
+C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.RazorTargetAssemblyInfo.cache
+C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.RazorTargetAssemblyInfo.cs
+C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.Views.pdb
+C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.dll
+C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.pdb
+C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.genruntimeconfig.cache
+C:\Hospitalizacion\HospiEnCasa\hospiencasa.app\hospiencasa.app.frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.csproj.CopyComplete
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\RegPacientes.cshtml.g.cs
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\DetailPacientes.cshtml.g.cs
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\ListPacientes.cshtml.g.cs
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\RegFamiliares.cshtml.g.cs
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\RegMedicos.cshtml.g.cs
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\HospiEnCasa.App.Dominio.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\HospiEnCasa.App.Persistencia.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\HospiEnCasa.App.Persistencia.pdb
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\HospiEnCasa.App.Dominio.pdb
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.StaticWebAssets.xml
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.exe
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.deps.json
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.runtimeconfig.json
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.runtimeconfig.dev.json
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.dll
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.pdb
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.Views.dll
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.Views.pdb
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\HospiEnCasa.App.Dominio.dll
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\HospiEnCasa.App.Persistencia.dll
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\HospiEnCasa.App.Persistencia.pdb
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\HospiEnCasa.App.Dominio.pdb
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.csproj.AssemblyReference.cache
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.AssemblyInfoInputs.cache
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.AssemblyInfo.cs
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.csproj.CoreCompileInputs.cache
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.RazorAssemblyInfo.cache
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.RazorAssemblyInfo.cs
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\staticwebassets\HospiEnCasa.App.Frontend.StaticWebAssets.Manifest.cache
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.TagHelpers.input.cache
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.TagHelpers.output.cache
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.RazorCoreGenerate.cache
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\DetailPacientes.cshtml.g.cs
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\ListPacientes.cshtml.g.cs
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\RegFamiliares.cshtml.g.cs
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\RegMedicos.cshtml.g.cs
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\RegPacientes.cshtml.g.cs
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.RazorTargetAssemblyInfo.cache
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.RazorTargetAssemblyInfo.cs
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.Views.pdb
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.csproj.CopyComplete
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.dll
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.pdb
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.genruntimeconfig.cache
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\ListMedicos.cshtml.g.cs
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.exe
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.deps.json
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.runtimeconfig.json
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.runtimeconfig.dev.json
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.dll
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.pdb
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.Views.dll
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.Views.pdb
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\HospiEnCasa.App.Dominio.dll
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\HospiEnCasa.App.Persistencia.dll
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\HospiEnCasa.App.Persistencia.pdb
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\HospiEnCasa.App.Dominio.pdb
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.csprojAssemblyReference.cache
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.AssemblyInfoInputs.cache
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.AssemblyInfo.cs
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.csproj.CoreCompileInputs.cache
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.RazorAssemblyInfo.cache
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.RazorAssemblyInfo.cs
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.TagHelpers.input.cache
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.TagHelpers.output.cache
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.RazorCoreGenerate.cache
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\DetailPacientes.cshtml.g.cs
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\ListMedicos.cshtml.g.cs
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\ListPacientes.cshtml.g.cs
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\RegFamiliares.cshtml.g.cs
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\RegMedicos.cshtml.g.cs
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\RegPacientes.cshtml.g.cs
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.RazorTargetAssemblyInfo.cache
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.RazorTargetAssemblyInfo.cs
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.Views.pdb
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.csproj.CopyComplete
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\staticwebassets\HospiEnCasa.App.Frontend.StaticWebAssets.Manifest.cache
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\staticwebassets\HospiEnCasa.App.Frontend.StaticWebAssets.xml
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.dll
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.pdb
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.genruntimeconfig.cache
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\ListMedicos.cshtml.g.cs
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\RegSignosVitales.cshtml.g.cs

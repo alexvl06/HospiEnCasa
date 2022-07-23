@@ -1,0 +1,4 @@
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netstandard2.1\HospiEnCasa.App.Frontend.csprojAssemblyReference.cache
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netstandard2.1\HospiEnCasa.App.Frontend.AssemblyInfoInputs.cache
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netstandard2.1\HospiEnCasa.App.Frontend.AssemblyInfo.cs
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netstandard2.1\HospiEnCasa.App.Frontend.csproj.CoreCompileInputs.cache

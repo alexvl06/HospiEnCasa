@@ -1,0 +1,73 @@
+﻿@page
+@model HospiEnCasa.App.Frontend.Pages.ListPacientesModel
+@{
+    ViewData["Title"] = "Lista Pacientes";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/formStyle.css">
+</head>
+<main>
+    <h1>LISTA DE PACIENTES</h1>
+    <form class="formulario">
+        <div class="form-col-4">
+            <label for="event" class="formulario__label">Ordenar por: </label>
+        </div>
+        <div class="form-col-8" class="formulario__input">
+            <select id="event" required>
+                <option value="">Elija una opcion</option>
+                <option value="E1">Orden A-Z</option>
+                <option value="E2">Orden Z-A</option>
+                <option value="E4">Todos</option>
+            </select>
+    </form>
+    </div>
+</main>
+<div>
+    @if (Model.Pacientes.Count() == 0)
+    {
+        <script>alert('Áun no tiene pacientes asignados.')</script>
+    }
+    else
+    {
+        <table>
+            <tr>
+                <th>Id</th>
+                <th>Nombre</th>
+                <th>Apellidos</th>
+                <th>Género</th>
+                <th>Telefono</th>
+                <th>Fecha de Nacimiento</th>
+                <th>Dirección</th>
+            </tr>
+            @foreach (var paciente in Model.Pacientes)
+            {
+                string genero;
+                switch ((int)@paciente.Genero)
+                {
+                    case 0:
+                        genero = "Masculino";
+                        break;
+                    case 1:
+                        genero = "Femenino";
+                        break;
+                    default:
+                        genero = "otro";
+                        break;
+
+                }
+                <tr>
+                    <td>@paciente.Id</td>
+                    <td>@paciente.Nombre</td>
+                    <td>@paciente.Apellidos</td>
+                    <td>@genero</td>
+                    <td>@paciente.NumeroTelefono</td>
+                    <td>@paciente.FechaNacimiento</td>
+                    <td>@paciente.Direccion</td>
+                </tr>
+            }
+
+        </table>
+    }
+
+</div>

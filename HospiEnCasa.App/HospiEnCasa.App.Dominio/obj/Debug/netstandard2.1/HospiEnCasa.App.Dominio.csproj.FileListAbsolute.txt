@@ -1,0 +1,38 @@
+/home/inter-telco/Documents/Alexis/personal/mintic/HospiEnCasa/HospiEnCasa.App/HospiEnCasa.App.Dominio/bin/Debug/netstandard2.1/HospiEnCasa.App.Dominio.deps.json
+/home/inter-telco/Documents/Alexis/personal/mintic/HospiEnCasa/HospiEnCasa.App/HospiEnCasa.App.Dominio/bin/Debug/netstandard2.1/HospiEnCasa.App.Dominio.dll
+/home/inter-telco/Documents/Alexis/personal/mintic/HospiEnCasa/HospiEnCasa.App/HospiEnCasa.App.Dominio/bin/Debug/netstandard2.1/HospiEnCasa.App.Dominio.pdb
+/home/inter-telco/Documents/Alexis/personal/mintic/HospiEnCasa/HospiEnCasa.App/HospiEnCasa.App.Dominio/obj/Debug/netstandard2.1/HospiEnCasa.App.Dominio.csproj.AssemblyReference.cache
+/home/inter-telco/Documents/Alexis/personal/mintic/HospiEnCasa/HospiEnCasa.App/HospiEnCasa.App.Dominio/obj/Debug/netstandard2.1/HospiEnCasa.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+/home/inter-telco/Documents/Alexis/personal/mintic/HospiEnCasa/HospiEnCasa.App/HospiEnCasa.App.Dominio/obj/Debug/netstandard2.1/HospiEnCasa.App.Dominio.AssemblyInfoInputs.cache
+/home/inter-telco/Documents/Alexis/personal/mintic/HospiEnCasa/HospiEnCasa.App/HospiEnCasa.App.Dominio/obj/Debug/netstandard2.1/HospiEnCasa.App.Dominio.AssemblyInfo.cs
+/home/inter-telco/Documents/Alexis/personal/mintic/HospiEnCasa/HospiEnCasa.App/HospiEnCasa.App.Dominio/obj/Debug/netstandard2.1/HospiEnCasa.App.Dominio.csproj.CoreCompileInputs.cache
+/home/inter-telco/Documents/Alexis/personal/mintic/HospiEnCasa/HospiEnCasa.App/HospiEnCasa.App.Dominio/obj/Debug/netstandard2.1/HospiEnCasa.App.Dominio.dll
+/home/inter-telco/Documents/Alexis/personal/mintic/HospiEnCasa/HospiEnCasa.App/HospiEnCasa.App.Dominio/obj/Debug/netstandard2.1/HospiEnCasa.App.Dominio.pdb
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Dominio\bin\Debug\netstandard2.1\HospiEnCasa.App.Dominio.deps.json
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Dominio\bin\Debug\netstandard2.1\HospiEnCasa.App.Dominio.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Dominio\bin\Debug\netstandard2.1\HospiEnCasa.App.Dominio.pdb
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Dominio\obj\Debug\netstandard2.1\HospiEnCasa.App.Dominio.csprojAssemblyReference.cache
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Dominio\obj\Debug\netstandard2.1\HospiEnCasa.App.Dominio.AssemblyInfoInputs.cache
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Dominio\obj\Debug\netstandard2.1\HospiEnCasa.App.Dominio.AssemblyInfo.cs
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Dominio\obj\Debug\netstandard2.1\HospiEnCasa.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Dominio\obj\Debug\netstandard2.1\HospiEnCasa.App.Dominio.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Dominio\obj\Debug\netstandard2.1\HospiEnCasa.App.Dominio.pdb
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Dominio\bin\Debug\netstandard2.1\HospiEnCasa.App.Dominio.deps.json
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Dominio\bin\Debug\netstandard2.1\HospiEnCasa.App.Dominio.dll
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Dominio\bin\Debug\netstandard2.1\HospiEnCasa.App.Dominio.pdb
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Dominio\obj\Debug\netstandard2.1\HospiEnCasa.App.Dominio.csproj.AssemblyReference.cache
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Dominio\obj\Debug\netstandard2.1\HospiEnCasa.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Dominio\obj\Debug\netstandard2.1\HospiEnCasa.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Dominio\obj\Debug\netstandard2.1\HospiEnCasa.App.Dominio.AssemblyInfo.cs
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Dominio\obj\Debug\netstandard2.1\HospiEnCasa.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Dominio\obj\Debug\netstandard2.1\HospiEnCasa.App.Dominio.dll
+C:\Users\Alexis Avila\Documents\Alexis\MisionMinTIC\p2\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Dominio\obj\Debug\netstandard2.1\HospiEnCasa.App.Dominio.pdb
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Dominio\bin\Debug\netstandard2.1\HospiEnCasa.App.Dominio.deps.json
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Dominio\bin\Debug\netstandard2.1\HospiEnCasa.App.Dominio.dll
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Dominio\bin\Debug\netstandard2.1\HospiEnCasa.App.Dominio.pdb
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Dominio\obj\Debug\netstandard2.1\HospiEnCasa.App.Dominio.csprojAssemblyReference.cache
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Dominio\obj\Debug\netstandard2.1\HospiEnCasa.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Dominio\obj\Debug\netstandard2.1\HospiEnCasa.App.Dominio.AssemblyInfo.cs
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Dominio\obj\Debug\netstandard2.1\HospiEnCasa.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Dominio\obj\Debug\netstandard2.1\HospiEnCasa.App.Dominio.dll
+C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\HospiEnCasa.App.Dominio\obj\Debug\netstandard2.1\HospiEnCasa.App.Dominio.pdb
