@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/aUFGEux4Wjsl6YjswZmrsl/JoS5TcRRmXxzydrR7ODIKpX2G+uTmXToFsK2XK2PaA6gn+tA3RvUywECborX3w==",
+  "dgSpecHash": "KEriGuzjUMEjLAY7lyOYd8qi3hZ7eYxXhyN4HF2hhMhscFaCrQfnBqWjRx04uzZQRbOjIX98Hzr5bimsWBd5QQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Documents\\GitHub\\HospiEnCasa\\HospiEnCasa.App\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj",
+  "projectFilePath": "C:\\Users\\user\\Documents\\GitHub\\HospiEnCasa\\hospiencasa.app\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

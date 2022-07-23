@@ -25,6 +25,11 @@ namespace HospiEnCasa.App.Persistencia
         IEnumerable<Medico> IRepositorioMedico.GetAllMedicos(){
             return _appContext.Medicos;
         }
+
+        IEnumerable<Paciente> IRepositorioMedico.GetPatientsByDoctorId(int? MedicoId){
+            return _appContext.Pacientes.Where(p=>p.MedicoId==MedicoId );
+        }
+
         Medico IRepositorioMedico.GetMedico(int idMedico){
             return _appContext.Medicos.FirstOrDefault(m=> m.Id == idMedico);
         }

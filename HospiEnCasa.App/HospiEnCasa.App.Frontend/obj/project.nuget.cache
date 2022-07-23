@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3MQAZRUZOd3G/9i812S0hkU8XJawfD9UsU/2iYYrdKJzh09ttMv6x3oZu3fE5z9krZyZkeTIbMtaAP6qDoMt0A==",
+  "dgSpecHash": "7tjZ0wu+UHJ2fI1ZB53t7pcVf5PPYcmq1HL+2AO6mwPyRuYSs5+bqq+LTIN8cKodXdYQigUuI7t+hCYDRxzrVQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Documents\\GitHub\\HospiEnCasa\\HospiEnCasa.App\\HospiEnCasa.App.Frontend\\HospiEnCasa.App.Frontend.csproj",
+  "projectFilePath": "C:\\Users\\user\\Documents\\GitHub\\HospiEnCasa\\hospiencasa.app\\HospiEnCasa.App.Frontend\\HospiEnCasa.App.Frontend.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

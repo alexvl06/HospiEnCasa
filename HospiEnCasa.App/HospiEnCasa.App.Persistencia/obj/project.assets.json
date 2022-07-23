@@ -7269,11 +7269,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\HospiEnCasa\\HospiEnCasa.App\\HospiEnCasa.App.Persistencia\\HospiEnCasa.App.Persistencia.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\HospiEnCasa\\hospiencasa.app\\HospiEnCasa.App.Persistencia\\HospiEnCasa.App.Persistencia.csproj",
       "projectName": "HospiEnCasa.App.Persistencia",
-      "projectPath": "C:\\Users\\user\\Documents\\GitHub\\HospiEnCasa\\HospiEnCasa.App\\HospiEnCasa.App.Persistencia\\HospiEnCasa.App.Persistencia.csproj",
+      "projectPath": "C:\\Users\\user\\Documents\\GitHub\\HospiEnCasa\\hospiencasa.app\\HospiEnCasa.App.Persistencia\\HospiEnCasa.App.Persistencia.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Documents\\GitHub\\HospiEnCasa\\HospiEnCasa.App\\HospiEnCasa.App.Persistencia\\obj\\",
+      "outputPath": "C:\\Users\\user\\Documents\\GitHub\\HospiEnCasa\\hospiencasa.app\\HospiEnCasa.App.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -7290,8 +7290,8 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "C:\\Users\\user\\Documents\\GitHub\\HospiEnCasa\\HospiEnCasa.App\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj": {
-              "projectPath": "C:\\Users\\user\\Documents\\GitHub\\HospiEnCasa\\HospiEnCasa.App\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj"
+            "C:\\Users\\user\\Documents\\GitHub\\HospiEnCasa\\hospiencasa.app\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj": {
+              "projectPath": "C:\\Users\\user\\Documents\\GitHub\\HospiEnCasa\\hospiencasa.app\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj"
             }
           }
         }

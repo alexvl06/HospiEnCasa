@@ -5771,11 +5771,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\HospiEnCasa\\HospiEnCasa.App\\HospiEnCasa.App.Frontend\\HospiEnCasa.App.Frontend.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\HospiEnCasa\\hospiencasa.app\\HospiEnCasa.App.Frontend\\HospiEnCasa.App.Frontend.csproj",
       "projectName": "HospiEnCasa.App.Frontend",
-      "projectPath": "C:\\Users\\user\\Documents\\GitHub\\HospiEnCasa\\HospiEnCasa.App\\HospiEnCasa.App.Frontend\\HospiEnCasa.App.Frontend.csproj",
+      "projectPath": "C:\\Users\\user\\Documents\\GitHub\\HospiEnCasa\\hospiencasa.app\\HospiEnCasa.App.Frontend\\HospiEnCasa.App.Frontend.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Documents\\GitHub\\HospiEnCasa\\HospiEnCasa.App\\HospiEnCasa.App.Frontend\\obj\\",
+      "outputPath": "C:\\Users\\user\\Documents\\GitHub\\HospiEnCasa\\hospiencasa.app\\HospiEnCasa.App.Frontend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5792,11 +5792,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\user\\Documents\\GitHub\\HospiEnCasa\\HospiEnCasa.App\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj": {
-              "projectPath": "C:\\Users\\user\\Documents\\GitHub\\HospiEnCasa\\HospiEnCasa.App\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj"
+            "C:\\Users\\user\\Documents\\GitHub\\HospiEnCasa\\hospiencasa.app\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj": {
+              "projectPath": "C:\\Users\\user\\Documents\\GitHub\\HospiEnCasa\\hospiencasa.app\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj"
             },
-            "C:\\Users\\user\\Documents\\GitHub\\HospiEnCasa\\HospiEnCasa.App\\HospiEnCasa.App.Persistencia\\HospiEnCasa.App.Persistencia.csproj": {
-              "projectPath": "C:\\Users\\user\\Documents\\GitHub\\HospiEnCasa\\HospiEnCasa.App\\HospiEnCasa.App.Persistencia\\HospiEnCasa.App.Persistencia.csproj"
+            "C:\\Users\\user\\Documents\\GitHub\\HospiEnCasa\\hospiencasa.app\\HospiEnCasa.App.Persistencia\\HospiEnCasa.App.Persistencia.csproj": {
+              "projectPath": "C:\\Users\\user\\Documents\\GitHub\\HospiEnCasa\\hospiencasa.app\\HospiEnCasa.App.Persistencia\\HospiEnCasa.App.Persistencia.csproj"
             }
           }
         }

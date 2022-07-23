@@ -7,115 +7,140 @@
     <title>@ViewData["Title"] - HospiEnCasa</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
-
-    <style>
-        * {
-            box-sizing: border-box;
-            padding: 0%;
-            margin: 0%;
-        }
-
-        html {
-            font-size: 65.2%;
-        }
-
-        body {
-            background-image: url("img/Registro.jpg");
-            background-size: cover;
-            background-repeat: no-repeat;
-            font-size: 1.2rem;
-            font-family: sans-serif;
-            line-height: 1.6em;
-        }
-
-        header {
-            background-color: cornflowerblue !important;
-        }
-
-        img {
-            margin: 1rem;
-        }
-
-        .logo-nav-container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin: 0 auto;
-        }
-
-        .navigation ul {
-            margin: 0;
-            padding: 0;
-            list-style: none;
-        }
-
-        .navigation ul li {
-            display: inline-block;
-            margin: 3px;
-        }
-
-        .navigation ul li a {
-            transition: all 0.4s linear;
-            border-radius: 5px;
-            color: white !important;
-
-        }
-
-        .navigation ul li a:hover {
-            background: darkgray;
-            color: black !important;
-        }
-
-        .footer {
-            background: darkgray;
-            padding: 1rem 0;
-            text-align: center;
-            margin-top: 9rem;
-        }
-    </style>
 </head>
+<style>
+    body {
+        background-image: url("img/Registro.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        font-size: 1.2rem;
+        font-family: sans-serif;
+        line-height: 1.6em;
+        text-decoration: none;
+    }
+    .footer {
+        background: darkgray;
+        padding: 0rem 0;
+        text-align: center;
+        margin-top: 9rem;
+        margin-left: 0px;
+
+    }
+
+    header {
+        background-color: cornflowerblue !important
+    }
+
+    img {
+        margin: 1rem;
+    }
+
+    header nav ul li span {
+        margin-right: 10px;
+
+    }
+
+    nav {
+        background: #528fd5;
+        margin-top: 20px;
+        position: relative;
+    }
+
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+    }
+
+    nav>ul>li {
+        float: left;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: #fff;
+        display: block;
+        padding: 10px 20px;
+    }
+
+    nav ul li a:hover {
+        background: #3669a3;
+    }
+
+    nav>ul>li:hover div {
+        display: table;
+    }
+
+    /*Submenu*/
+    nav ul li div {
+        width: 500px;
+        position: absolute;
+        left: 0;
+        background: #ccc;
+        box-sizing: border-box;
+        display: none;
+    }
+
+    nav ul li div ul {
+        width: 20%;
+        display: table-cell;
+        border-right: 1px solid rgba(255, 255, 255, .5);
+        box-sizing: border-box;
+    }
+
+    nav ul li div ul:last-child {
+        border: none;
+    }
+
+    nav ul li div ul li a {
+        color: #000;
+    }
+
+    nav ul li div ul li a:hover {
+        color: #fff;
+    }
+
+</style>
 
 <body>
-
     <header>
-
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
-                <a class="navbar-brand" asp-page="/Index"><img src="../img/HC.png" alt="Logo" height="80px"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navigation collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" asp-page="/Formularios/RegPacientes">Registrar Pacientes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-page="/Formularios/ListPacientes">Lista de Pacientes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-page="/Formularios/DetailPacientes">Detalles de
-                                Pacientes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-page="/Formularios/RegMedicos">Registrar Médicos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-page="/Formularios/ListMedicos">Consultar Médicos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-page="/Formularios/RegFamiliares">Registrar Familiares</a>
-                        </li>
-
-                    </ul>
-                </div>
+                <a class="navbar-brand" asp-page="/Index"><img src="../img/HC.png" alt="Logo" height="90px"></a>           
+            <nav>
+                <ul>
+                    <li><a class="nav-link"><span class=""></span>Pacientes</a>
+                        <div>
+                            <ul>
+                                <li><a class="nav-link" asp-page="/Formularios/RegPacientes">Nuevo Paciente</a></li>
+                                <li><a class="nav-link" asp-page="/Formularios/ListPacientes">Lista de Pacientes</a>
+                                <li><a class="nav-link" asp-page="/Formularios/DetailPacientes">Detalles de Pacientes</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a class="nav-link"><span class=""></span>Médicos</a>
+                        <div>
+                            <ul>
+                                <li><a class="nav-link" asp-page="/Formularios/RegMedicos">Nuevo Médico</a></li>
+                                <li><a class="nav-link" asp-page="/Formularios/ListMedicos">Lista de Médicos</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a class="nav-link"><span class=""></span>Familiares</a>
+                        <div>
+                            <ul>
+                                <li><a class="nav-link" asp-page="/Formularios/RegFamiliares">Nuevo Familiar</a></li>
+                                <li><a class="nav-link" asp-page="/Formularios/RegFamiliares">Lista de Familiares</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a class="nav-link"><span class=""></span>Contacto</li>
+                </ul>  
             </div>
-        </nav>
-
-
-
+         </nav>
     </header>
     <div class="container">
         <main role="main" class="pb-3">
@@ -134,8 +159,6 @@
     <script src="~/js/site.js" asp-append-version="true"></script>
 
     @RenderSection("Scripts", required: false)
-
-
 </body>
 
 </html>
