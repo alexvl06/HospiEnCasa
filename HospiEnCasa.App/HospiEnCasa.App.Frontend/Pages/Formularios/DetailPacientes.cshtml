@@ -21,45 +21,38 @@
         <table>
         <tr>
             <th>Nombre:</th>
+            <th>Apellidos:</th>
+             <th>Género:</th>
+             <th>Teléfono:</th>
+             <th>Fecha de Nacimiento:</th>
+             <th>Dirección:</th>
+             <th>Ciudad:</th>
+             <th>Latitud:</th>
+             <th>Longitud:</th>
+        </tr>
+            
+         <tr>
             <td>
                 <input class="formulario__input" type="text" asp-for="paciente.Nombre" readonly>
             </td>
-        </tr>
-        <tr>
-            <th>Apellidos:</th>
             <td>
                 <input class="formulario__input" type="text" asp-for="paciente.Apellidos" readonly>
             </td>
-        </tr>
-        <tr>
-            <th>Género:</th>
             <td><input class="formulario__input" type="text" asp-for="paciente.Genero" readonly></td>
-        </tr>
-        <tr>
-            <th>Teléfono:</th>
+        
             <td><input class="formulario__input" type="text" id="phonenumber" required pattern="[0-9]{10}"
                 asp-for="paciente.NumeroTelefono"></td>
-        </tr>
-        <tr>
-            <th>Fecha de Nacimiento:</th>
+      
             <td><input class="formulario__input" type="text" asp-for="paciente.FechaNacimiento" readonly></td>
-        </tr>
-        <tr>
-            <th>Dirección:</th>
+       
             <td>
                 <input class="formulario__input" type="text" id="address" required asp-for="paciente.Direccion">
             </td>
-        </tr>
-        <tr>
-            <th>Ciudad:</th>
+                    
             <td><input class="formulario__input" type="text" asp-for="paciente.Ciudad" readonly></td>
-        </tr>
-        <tr>
-            <th>Latitud:</th>
+                    
             <td><input class="formulario__input" type="text" asp-for="paciente.Latitud" readonly></td>
-        </tr>
-        <tr>
-            <th>Longitud:</th>
+       
             <td><input class="formulario__input" type="text" asp-for="paciente.Longitud" readonly></td>
         </tr>
     </table>
