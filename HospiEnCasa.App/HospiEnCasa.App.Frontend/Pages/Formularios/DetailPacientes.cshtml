@@ -7,6 +7,7 @@
    <link rel="stylesheet" href="~/css/formStyle.css">
  </head>
 <body>
+    
 <h1>DETALLES PACIENTE</h1>
     <form action="" class="formulario" method="get">
         <label for="idPaciente" class="formulario__label">Id del Paciente:</label>
@@ -16,44 +17,55 @@
         <input type="submit" value="Consultar" class="formulario__btn">
     </form>
     @if(Model.paciente != null){
-
+        <form method="post" action="">
         <table>
         <tr>
             <th>Nombre:</th>
-            <td>@Model.paciente.Nombre</td>
+            <td>
+                <input class="formulario__input" type="text" asp-for="paciente.Nombre" readonly>
+            </td>
         </tr>
         <tr>
             <th>Apellidos:</th>
-            <td>@Model.paciente.Apellidos</td>
+            <td>
+                <input class="formulario__input" type="text" asp-for="paciente.Apellidos" readonly>
+            </td>
         </tr>
         <tr>
             <th>Género:</th>
-            <td>@Model.paciente.Genero</td>
+            <td><input class="formulario__input" type="text" asp-for="paciente.Genero" readonly></td>
         </tr>
         <tr>
             <th>Teléfono:</th>
-            <td>@Model.paciente.NumeroTelefono</td>
+            <td><input class="formulario__input" type="text" id="phonenumber" required pattern="[0-9]{10}"
+                asp-for="paciente.NumeroTelefono"></td>
         </tr>
         <tr>
             <th>Fecha de Nacimiento:</th>
-            <td>@Model.paciente.FechaNacimiento.ToShortDateString()</td>
+            <td><input class="formulario__input" type="text" asp-for="paciente.FechaNacimiento" readonly></td>
         </tr>
         <tr>
             <th>Dirección:</th>
-            <td>@Model.paciente.Direccion</td>
+            <td>
+                <input class="formulario__input" type="text" id="address" required asp-for="paciente.Direccion">
+            </td>
         </tr>
         <tr>
             <th>Ciudad:</th>
-            <td>@Model.paciente.Ciudad</td>
+            <td><input class="formulario__input" type="text" asp-for="paciente.Ciudad" readonly></td>
         </tr>
         <tr>
             <th>Latitud:</th>
-            <td>@Model.paciente.Latitud</td>
+            <td><input class="formulario__input" type="text" asp-for="paciente.Latitud" readonly></td>
         </tr>
         <tr>
             <th>Longitud:</th>
-            <td>@Model.paciente.Longitud</td>
+            <td><input class="formulario__input" type="text" asp-for="paciente.Longitud" readonly></td>
         </tr>
     </table>
+    <input type="hidden" value="@Model.paciente.Id" asp-for="paciente.Id">
+    <button class="formulario__btn" type="submit">Actualizar</button>
+    </form>
     }
+
 </body>
