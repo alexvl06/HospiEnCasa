@@ -12,11 +12,7 @@
 
     <h1>REGISTRAR PACIENTES</h1>
     <form action="" class="formulario" method="post">
-        <label for="id" class="formulario__label">
-            <span>Número de identificación</span>
-            <input class="formulario__input" type="text" id="id" pattern="[0-9]{1,10}"
-                title="Ingrese hasta 10 dígitos. No se permite otro tipo de carácteres." placeholder="Escribe el Id" />
-        </label>
+        
         <label for="firstname" class="formulario__label">
             <span>Nombres</span>
             <input class="formulario__input" type="text" asp-for="paciente.Nombre" id="firstname" required
@@ -81,10 +77,10 @@
                 title="Solo se admite números separados por coma." placeholder="Escribe longitud"
                 asp-for="paciente.Longitud">
         </label>
-            <div class="form-group">
-                <label asp-for="paciente.MedicoId" class="control-label"></label>
-                <select asp-for="paciente.MedicoId" class="form-control" asp-items="ViewBag.MedicoId"></select>
-            </div>
+        <label for="medico" class="formulario__label">
+            <span>Médico Asignado</span>    
+            <select asp-for="paciente.MedicoId" class="form-control" asp-items="ViewBag.MedicoId"></select>
+        </label>
         <button class="formulario__btn" type="submit">Crear</button>
     </form>
 </body>

@@ -8,7 +8,27 @@
 </head>
 <body>
     <h1>REGISTRAR FAMILIARES</h1>
+    <form action="" class="formulario" method="get">
+        <label for="idPaciente" class="formulario__label">Id del Paciente:</label>
+        <input class="formulario__input" type="text" id="idPaciente" required pattern="[0-9]{1,10}"
+            title="Ingrese números. No se permite otro tipo de carácteres." placeholder="1234567890"
+            name="idPaciente"
+            asp-for="IdPaciente"
+           >
+        
+        <input type="submit" value="Consultar" class="formulario__btn">
+    </form>
+    @if(Model.paciente!=null)
+    {
     <form action="" method="post" class="formulario" id="formulario">
+         <label for="nombre" class="formulario__label">
+            <span>Nombre del Paciente</span>
+            <input class="formulario__input" type="text"  id="nombre" asp-for="paciente.Nombre" disabled>
+        </label>
+        <label for="nombre" class="formulario__label">
+            <span>Apellidos del Paciente</span>
+            <input class="formulario__input" type="text"  id="nombre" asp-for="paciente.Apellidos" disabled>
+        </label>
          <!--Grupo: nombre -->
            <div class="formulario__grupo" id="grupo__nombre">
             <label for="nombre" class="formulario__label">Nombre</label>
@@ -43,19 +63,23 @@
         </div>
 
          <!--Grupo: genero -->
-         
-         <div class="formulario__grupo-input">
-            <label for="Genero" class="formulario__label">Género</label>
-            <label for="Masculino">Masculino</label>
-            <input type="radio" id="Masculino" asp-for = "familiarDesignado.Genero" value="masculino" >
-            <label for="Femenino">Femenino</label>
-            <input type="radio" id="Femenino" asp-for ="familiarDesignado.Genero" value="femenino" >
-            <label for="Otro">Otro</label>
-            <input type="radio" id="Otro" asp-for ="familiarDesignado.Genero" value="otro" >
-            <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
-            <p class="formulario__input-error">Se debe seleccionar una opción </p>
-        </div>
-
+        <label for="genre" class="formulario__label">
+            <fieldset>
+                <legend>Género</legend>
+                <label for="male">
+                    <input type="radio" value="masculino" id="male" asp-for="familiarDesignado.Genero">
+                    <span>Masculino</span>
+                </label>
+                <label for="female">
+                    <input type="radio" value="femenino" id="female" asp-for="familiarDesignado.Genero">
+                    <span>Femenino</span>
+                </label>
+                <label for="other">
+                    <input type="radio" value="otro" id="other" asp-for="familiarDesignado.Genero">
+                    <span>Otro</span>
+                </label>
+            </fieldset>
+        </label>
          <!--Grupo: correo electronico -->
          <div class="formulario__grupo" id="grupo__correo electronico">
             <label for="correo electronico" class="formulario__label">Correo Electrónico</label>
@@ -80,10 +104,13 @@
             <div class="formulario__mensaje" id="formulario__mensaje">
                 <p><i class="fa-solid fa-triangle-exclamation"></i> <b>Error:</b> El formulario tiene que estar completo </p>
             </div>
+           
+            <input type="hidden" asp-for="familiarDesignado.PacienteId">
 
                            <button type="submit" class="formulario__btn">Crear</button>
                 <p class="formulario__mensaje-exito" id="formulario__mensaje-exito"> El formulario se guardo exitosamente </p>
 
            
         </form>
+    }
 </body>

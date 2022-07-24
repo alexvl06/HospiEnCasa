@@ -86,7 +86,7 @@ namespace HospiEnCasa.App.Frontend.Pages
             }
                       
         }
-        public IActionResult OnPost(string temp)
+        public IActionResult OnPost()
         {
             DateTime ahora = DateTime.Now;
            if(oximetria.Valor.HasValue)

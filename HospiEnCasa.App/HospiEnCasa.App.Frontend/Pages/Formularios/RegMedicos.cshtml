@@ -9,18 +9,7 @@
 <body>
     <h1>REGISTRAR MÉDICOS</h1>   
       <form action="" class="formulario" method="post">
-        <label for="id" class="formulario__label">
-          <span>Número de identificación</span>
-          <input
-            type="text"
-            name=""
-            id="id"
-            pattern="[0-9]{1,10}"
-            title="Ingrese hasta 10 dígitos. No se permite otro tipo de carácteres."
-            class="formulario__input"
-            placeholder="Escribe el Id"
-          >
-        </label>
+        
         <label for="firstname" class="formulario__label">
           <span>Nombre</span>
           <input
@@ -112,7 +101,7 @@
              asp-for="medico.RegistroRethus"
              >
           </label>
-        <button class="formulario__btn" type="submit">Crear</button>
+        <button class="formulario__btn" style="margin:auto" type="submit">Crear</button>
       </form>
   
   </body>
