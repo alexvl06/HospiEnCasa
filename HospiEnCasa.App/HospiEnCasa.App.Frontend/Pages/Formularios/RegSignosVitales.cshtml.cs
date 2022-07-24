@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using HospiEnCasa.App.Dominio;
 using HospiEnCasa.App.Persistencia;
+using System.Globalization;
 
 namespace HospiEnCasa.App.Frontend.Pages
 {
@@ -13,16 +14,23 @@ namespace HospiEnCasa.App.Frontend.Pages
     {
          private IRepositorioPaciente repositorioPaciente = new RepositorioPaciente(new Persistencia.AppContext());
          private IRepositorioSignoVital repositorioSignoVital = new RepositorioSignoVital(new Persistencia.AppContext());
-
+        
+        [BindProperty]
          public Paciente paciente {get;set;}
          public int? IdPaciente {get;set;}
-
+        [BindProperty]
          public SignoVital oximetria {get;set;}
+         [BindProperty]
          public SignoVital freqRespiratoria {get;set;}
+         [BindProperty]
          public SignoVital freqCardiaca {get;set;}
+         [BindProperty]
          public SignoVital temperatura {get;set;}
+         [BindProperty]
          public SignoVital sistolica {get;set;}
+         [BindProperty]
          public SignoVital diastolica {get;set;}
+         [BindProperty]
          public SignoVital glicemia {get;set;}
 
         public void OnGet(int? idPaciente)
@@ -33,60 +41,96 @@ namespace HospiEnCasa.App.Frontend.Pages
                 oximetria=new SignoVital
                 {
                     Signo=TipoSigno.saturacionOxigeno,
-                    pacienteId=paciente.Id,
-                    paciente=paciente
+                    pacienteId=IdPaciente,                    
+                   
                     
                 };
                 freqRespiratoria=new SignoVital
                 {
                     Signo=TipoSigno.frecuenciaRespiratoria,
-                    pacienteId=paciente.Id,
-                    paciente=paciente
+                    pacienteId=IdPaciente,
+                   
                 };
                 freqCardiaca=new SignoVital
                 {
                     Signo=TipoSigno.frecuenciaCardiaca,
-                    pacienteId=paciente.Id,
-                    paciente=paciente
+                    pacienteId=IdPaciente,
+                    
                 };
                 temperatura=new SignoVital
                 {
                     Signo=TipoSigno.temperaturaCorporal,
-                    pacienteId=paciente.Id,
-                    paciente=paciente
+                    pacienteId=IdPaciente,
+                    
                 };
                 sistolica=new SignoVital
                 {
                     Signo=TipoSigno.sistolica,
-                    pacienteId=paciente.Id,
-                    paciente=paciente
+                    pacienteId=IdPaciente,
+                   
                 };
                 diastolica=new SignoVital
                 {
                     Signo=TipoSigno.diastolica,
-                    pacienteId=paciente.Id,
-                    paciente=paciente
+                    pacienteId=IdPaciente,
+                    
                 };
                 glicemia=new SignoVital
                 {
                     Signo=TipoSigno.glicemia,
-                    pacienteId=paciente.Id,
-                    paciente=paciente
+                    pacienteId=IdPaciente,
+                    
                 };
                 
 
             }
                       
         }
-        public void OnPost()
+        public IActionResult OnPost(string temp)
         {
-            /*            
-            oximetria=repositorioSignoVital.AddSignoVital(oximetria);
-            freqRespiratoria=repositorioSignoVital.AddSignoVital(freqRespiratoria);
-            freqCardiaca=repositorioSignoVital.AddSignoVital(freqCardiaca);
-            sistolica=repositorioSignoVital.AddSignoVital(sistolica);
-            diastolica=repositorioSignoVital.AddSignoVital(diastolica);
-            glicemia=repositorioSignoVital.AddSignoVital(glicemia);*/
+            DateTime ahora = DateTime.Now;
+           if(oximetria.Valor.HasValue)
+           {
+                
+                oximetria.FechaHora=ahora;
+                oximetria=repositorioSignoVital.AddSignoVital(oximetria);
+           }
+           if(freqRespiratoria.Valor.HasValue)
+           {
+                freqRespiratoria.FechaHora=ahora;
+                freqRespiratoria=repositorioSignoVital.AddSignoVital(freqRespiratoria);
+           }
+           if(freqCardiaca.Valor.HasValue)
+           {
+                freqCardiaca.FechaHora=ahora;
+                freqCardiaca=repositorioSignoVital.AddSignoVital(freqCardiaca);
+           }
+           if(temperatura.Valor.HasValue)
+           {
+                temperatura.FechaHora=ahora;
+                temperatura=repositorioSignoVital.AddSignoVital(temperatura);
+           }
+           if(sistolica.Valor.HasValue)
+           {
+                sistolica.FechaHora=ahora;
+                sistolica=repositorioSignoVital.AddSignoVital(sistolica);
+           }
+           if(diastolica.Valor.HasValue)
+           {
+                diastolica.FechaHora=ahora;
+                diastolica=repositorioSignoVital.AddSignoVital(diastolica);
+           }
+           if(glicemia.Valor.HasValue)
+           {
+               glicemia.FechaHora=ahora;
+               glicemia=repositorioSignoVital.AddSignoVital(glicemia);
+           
+           }
+            
+            
+            return Page();
+            
+
 
         }
     }

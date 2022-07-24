@@ -23,11 +23,11 @@
         <form action="" method="post" class="formulario">
          <label for="nombre" class="formulario__label">
             <span>Nombre</span>
-            <input class="formulario__input" type="text"  id="nombre" value="@Model.paciente.Nombre" disabled>
+            <input class="formulario__input" type="text"  id="nombre" asp-for="paciente.Nombre" disabled>
         </label>
         <label for="nombre" class="formulario__label">
             <span>Apellidos</span>
-            <input class="formulario__input" type="text"  id="nombre" value="@Model.paciente.Apellidos" disabled>
+            <input class="formulario__input" type="text"  id="nombre" asp-for="paciente.Apellidos" disabled>
         </label>
          <label for="oxy" class="formulario__label">
             <span>Oximetría</span>
@@ -44,7 +44,7 @@
                 title="Ingrese números. No se permite otro tipo de carácteres."
                 min="0"
                 max="100"
-                placeholder="10"
+                placeholder="RPM"
                 asp-for="freqRespiratoria.Valor">
         </label>
         <label for="bpm" class="formulario__label">
@@ -58,10 +58,8 @@
         </label>
         <label for="temp" class="formulario__label">
             <span>Temperatura</span>
-            <input class="formulario__input" type="number"  id="temp" 
+            <input class="formulario__input" type="text"  id="temp" pattern="-?\d+([,]\d+)"
                 title="Ingrese números. No se permite otro tipo de carácteres."
-                min="30"
-                max="50"
                 placeholder="°C"
                 asp-for="temperatura.Valor">
         </label>
@@ -95,15 +93,23 @@
                 placeholder="mg/dl"
                 asp-for="glicemia.Valor">
             </label>
+            <input type="hidden" asp-for="oximetria.pacienteId">
+            <input type="hidden" asp-for="oximetria.Signo">
+            <input type="hidden" asp-for="freqRespiratoria.pacienteId">
+            <input type="hidden" asp-for="freqRespiratoria.Signo">
+            <input type="hidden" asp-for="freqCardiaca.pacienteId">
+            <input type="hidden" asp-for="freqCardiaca.Signo">
+            <input type="hidden" asp-for="temperatura.pacienteId">
+            <input type="hidden" asp-for="temperatura.Signo">
+            <input type="hidden" asp-for="sistolica.pacienteId">
+            <input type="hidden" asp-for="sistolica.Signo">
+            <input type="hidden" asp-for="diastolica.pacienteId">
+            <input type="hidden" asp-for="diastolica.Signo">
+            <input type="hidden" asp-for="glicemia.pacienteId">
+            <input type="hidden" asp-for="glicemia.Signo">
         <input type="submit" value="Registrar" class="formulario__btn">
     </form>
-    /*@Model.oximetria.Valor
-    @Model.freqCardiaca.Valor
-    @Model.freqRespiratoria.Valor
-    @Model.temperatura.Valor
-    @Model.sistolica.Valor
-    @Model.diastolica.Valor
-    @Model.glicemia.Valor*/
+  
     }
 
     
