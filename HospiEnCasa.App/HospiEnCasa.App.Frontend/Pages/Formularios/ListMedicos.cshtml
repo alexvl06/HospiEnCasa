@@ -42,11 +42,8 @@
                 <td>@medico.NumeroTelefono</td>
                 <td>@medico.Especialidad</td>
 
-                <td>
-                    <a asp-action="Edit" asp-route-id="@medico.Id">Editar</a> |
-                    <a asp-action="Details" asp-route-id="@medico.">Detalles</a> |
-                    <a asp-action="Delete" asp-route-id="@medico.Id">Borrar</a>|
-                    <a href="/formularios/ListPacientes?id=@medico.Id">Pacientes</a>
+                <td style="text-align: center;">
+                    <a href="/formularios/ListPacientes?idMedico=@medico.Id">Pacientes</a>
 
                 </td>
             </tr>

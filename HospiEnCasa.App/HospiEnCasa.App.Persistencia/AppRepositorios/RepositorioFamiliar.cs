@@ -44,5 +44,8 @@ namespace HospiEnCasa.App.Persistencia
             return familiarEncontrado;
                 
         }
+        FamiliarDesignado IRepositorioFamiliar.GetFamiliarByPatientId(int idPaciente){
+            return _appContext.FamiliaresDesignados.FirstOrDefault(f=>f.PacienteId==idPaciente);
+        }
     }    
 }

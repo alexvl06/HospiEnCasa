@@ -7,26 +7,21 @@
 <head>
     <link rel="stylesheet" href="~/css/formStyle.css">
 </head>
-<main>
+<body>
     <h1>LISTA DE PACIENTES</h1>
-    <form class="formulario">
-        <div class="form-col-4">
-            <label for="event" class="formulario__label">Ordenar por: </label>
-        </div>
-        <div class="form-col-8" class="formulario__input">
-            <select id="event" required>
-                <option value="">Elija una opcion</option>
-                <option value="E1">Orden A-Z</option>
-                <option value="E2">Orden Z-A</option>
-                <option value="E4">Todos</option>
-            </select>
+
+    <form action="" class="formulario" method="get">
+        <label for="idPaciente" class="formulario__label">Buscar por Id:</label>
+        <input class="formulario__input" type="text" id="idPaciente" required pattern="[0-9]{1,10}"
+            title="Ingrese números. No se permite otro tipo de carácteres." placeholder="123456789"
+            name="idPaciente"  asp-for="IdPaciente">
+        <input type="submit" value="Buscar" class="formulario__btn">
     </form>
-    </div>
-</main>
 <div>
     @if (Model.Pacientes.Count() == 0)
     {
-        <script>alert('Áun no tiene pacientes asignados.')</script>
+        <script>alert('No existen pacientes relacionados.')</script>
+       
     }
     else
     {
@@ -39,6 +34,7 @@
                 <th>Telefono</th>
                 <th>Fecha de Nacimiento</th>
                 <th>Dirección</th>
+                <th>Opciones</th>
             </tr>
             @foreach (var paciente in Model.Pacientes)
             {
@@ -64,6 +60,8 @@
                     <td>@paciente.NumeroTelefono</td>
                     <td>@paciente.FechaNacimiento</td>
                     <td>@paciente.Direccion</td>
+                    <td style="text-align: center;"><a href="/formularios/DetailPacientes?idPaciente=@paciente.Id">Detalle</a></td>
+
                 </tr>
             }
 
@@ -71,3 +69,4 @@
     }
 
 </div>
+</body>

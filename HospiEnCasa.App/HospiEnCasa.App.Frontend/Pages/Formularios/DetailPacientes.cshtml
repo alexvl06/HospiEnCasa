@@ -9,14 +9,22 @@
 <body>
     
 <h1>DETALLES PACIENTE</h1>
-    <form action="" class="formulario" method="get">
-        <label for="idPaciente" class="formulario__label">Id del Paciente:</label>
-        <input class="formulario__input" type="text" id="idPaciente" required pattern="[0-9]{1,10}"
-            title="Ingrese números. No se permite otro tipo de carácteres." placeholder="123456789"
-            name="idPaciente"  asp-for="IdPaciente">
-        <input type="submit" value="Consultar" class="formulario__btn">
-    </form>
+    
     @if(Model.paciente != null){
+        string genero;
+                switch ((int)@Model.paciente.Genero)
+                {
+                    case 0:
+                        genero = "Masculino";
+                        break;
+                    case 1:
+                        genero = "Femenino";
+                        break;
+                    default:
+                        genero = "Otro";
+                        break;
+
+                }
         <form method="post" action="">
         <table>
         <tr>
@@ -29,6 +37,8 @@
              <th>Ciudad:</th>
              <th>Latitud:</th>
              <th>Longitud:</th>
+             <th>Familiar Designado:</th>
+             <th>Médico Designado:</th>
         </tr>
             
          <tr>
@@ -38,7 +48,7 @@
             <td>
                 <input class="formulario__input" type="text" asp-for="paciente.Apellidos" readonly>
             </td>
-            <td><input class="formulario__input" type="text" asp-for="paciente.Genero" readonly></td>
+            <td><input class="formulario__input" type="text" value="@genero" readonly></td>
         
             <td><input class="formulario__input" type="text" id="phonenumber" required pattern="[0-9]{10}"
                 asp-for="paciente.NumeroTelefono"></td>
@@ -54,6 +64,8 @@
             <td><input class="formulario__input" type="text" asp-for="paciente.Latitud" readonly></td>
        
             <td><input class="formulario__input" type="text" asp-for="paciente.Longitud" readonly></td>
+            <td style="text-align: center;"><a href="/Formularios/DetailFamiliares?idFamiliar=@Model.familiarDesignado.Id">@Model.familiarDesignado.Nombre @Model.familiarDesignado.Apellidos</a></td>
+            <td><select asp-for="paciente.MedicoId" class="form-control" asp-items="ViewBag.MedicoId"></select></td>
         </tr>
     </table>
     <input type="hidden" value="@Model.paciente.Id" asp-for="paciente.Id">

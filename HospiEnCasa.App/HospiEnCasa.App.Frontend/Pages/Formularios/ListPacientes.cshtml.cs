@@ -15,17 +15,32 @@ namespace HospiEnCasa.App.Frontend.Pages
         private IRepositorioPaciente repositorioPaciente = new RepositorioPaciente(new Persistencia.AppContext());
         private IRepositorioMedico repositorioMedico = new RepositorioMedico(new Persistencia.AppContext());
         public IEnumerable<Paciente> Pacientes { get; set; }
+        public int? IdPaciente {get;set;}
+        public int? IdMedico {get;set;}
 
-        public void OnGet(int? id)
+        public void OnGet(int? idPaciente, int? idMedico)
         {
-            if (id == null)
+            if (idPaciente.HasValue)
+            {
+                Paciente pacienteEncontrado = repositorioPaciente.GetPaciente(idPaciente.Value);
+                if(pacienteEncontrado!=null)
+                {
+                List<Paciente> listaP = new List<Paciente>();
+                listaP.Add(pacienteEncontrado);
+                Pacientes = listaP;
+                IdPaciente=idPaciente;
+                IdMedico=idMedico;
+                }else{
+                    Pacientes = repositorioPaciente.GetAllPacientes();
+                }
+            }
+            else if(idMedico.HasValue)
+            {
+                Pacientes = repositorioMedico.GetPatientsByDoctorId(idMedico);
+                
+            }else
             {
                 Pacientes = repositorioPaciente.GetAllPacientes();
-            }
-            else
-            {
-                Pacientes = repositorioMedico.GetPatientsByDoctorId(id);
-
             }
 
 

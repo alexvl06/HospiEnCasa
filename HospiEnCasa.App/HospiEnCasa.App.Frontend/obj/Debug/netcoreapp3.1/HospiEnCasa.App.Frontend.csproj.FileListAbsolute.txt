@@ -301,3 +301,4 @@ C:\Users\jusej\Desktop\HospiEnCasa-alexis\HospiEnCasa-alexis\HospiEnCasa.App\Hos
 C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
 C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\ListMedicos.cshtml.g.cs
 C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\RegSignosVitales.cshtml.g.cs
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\DetailFamiliares.cshtml.g.cs

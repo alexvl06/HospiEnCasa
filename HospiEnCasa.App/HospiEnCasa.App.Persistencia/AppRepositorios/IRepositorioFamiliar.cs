@@ -9,5 +9,6 @@ public interface IRepositorioFamiliar{
     FamiliarDesignado UpdateFamiliar(FamiliarDesignado familiar);
     void DeleteFamiliar(int idFamiliar);
     FamiliarDesignado GetFamiliar(int idFamiliar);
+    FamiliarDesignado GetFamiliarByPatientId(int idPaciente);
 }
 }

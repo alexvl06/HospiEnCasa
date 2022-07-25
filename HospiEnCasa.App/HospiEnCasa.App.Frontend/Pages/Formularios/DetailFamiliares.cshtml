@@ -1,0 +1,49 @@
+@page
+@model HospiEnCasa.App.Frontend.Pages.DetailFamiliaresModel
+@{
+    ViewData["Title"] = "Det. Familiar";
+}
+<head>
+   <link rel="stylesheet" href="~/css/formStyle.css">
+ </head>
+<body>
+    
+<h1>DETALLES FAMILIARES</h1>
+    
+    @if(Model.familiarDesignado != null){
+        <form method="post" action="">
+        <table>
+        <tr>
+            <th>Nombre:</th>
+            <th>Apellidos:</th>
+             <th>Género:</th>
+             <th>Teléfono:</th>
+             <th>Correo:</th>
+             <th>Parentesco:</th>
+            
+        </tr>
+            
+         <tr>
+            <td>
+                <input class="formulario__input" type="text" asp-for="familiarDesignado.Nombre" readonly>
+            </td>
+            <td>
+                <input class="formulario__input" type="text" asp-for="familiarDesignado.Apellidos" readonly>
+            </td>
+
+            <td><input class="formulario__input" type="text" asp-for="familiarDesignado.Genero" readonly></td>
+        
+            <td><input class="formulario__input" type="text" id="phonenumber" required pattern="[0-9]{10}"
+                asp-for="familiarDesignado.NumeroTelefono"></td>
+                
+            <td><input class="formulario__input" type="text" asp-for="familiarDesignado.Correo"></td>
+
+            <td><input class="formulario__input" type="text" asp-for="familiarDesignado.Parentesco" readonly></td>
+        </tr>
+    </table>
+    <input type="hidden" value="@Model.familiarDesignado.Id" asp-for="familiarDesignado.Id">
+    <button class="formulario__btn" type="submit">Actualizar</button>
+    </form>
+    }
+
+</body>
