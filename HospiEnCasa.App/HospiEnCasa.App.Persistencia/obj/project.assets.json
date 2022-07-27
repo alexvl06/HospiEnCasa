@@ -7263,31 +7263,34 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jusej\\.nuget\\packages\\": {}
+    "C:\\Users\\julia\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Persistencia\\HospiEnCasa.App.Persistencia.csproj",
+      "projectUniqueName": "C:\\Hospitalizacion\\hospiencasa\\hospiencasa.app\\HospiEnCasa.App.Persistencia\\HospiEnCasa.App.Persistencia.csproj",
       "projectName": "HospiEnCasa.App.Persistencia",
-      "projectPath": "C:\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Persistencia\\HospiEnCasa.App.Persistencia.csproj",
-      "packagesPath": "C:\\Users\\jusej\\.nuget\\packages\\",
-      "outputPath": "C:\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Persistencia\\obj\\",
+      "projectPath": "C:\\Hospitalizacion\\hospiencasa\\hospiencasa.app\\HospiEnCasa.App.Persistencia\\HospiEnCasa.App.Persistencia.csproj",
+      "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
+      "outputPath": "C:\\Hospitalizacion\\hospiencasa\\hospiencasa.app\\HospiEnCasa.App.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jusej\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\julia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
           "projectReferences": {
-            "C:\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj": {
-              "projectPath": "C:\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj"
+            "C:\\Hospitalizacion\\hospiencasa\\hospiencasa.app\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj": {
+              "projectPath": "C:\\Hospitalizacion\\hospiencasa\\hospiencasa.app\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj"
             }
           }
         }
@@ -7300,6 +7303,7 @@
     },
     "frameworks": {
       "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
@@ -7337,7 +7341,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.421\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
