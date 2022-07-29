@@ -1,0 +1,36 @@
+@page
+@model HospiEnCasa.App.Frontend.Pages.RegHistoriasModel
+@{
+    ViewData["Title"] = "Reg. Historias";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/formStyle.css">
+</head>
+
+<body>
+
+    <h1>REGISTRAR HISTORIAS</h1>
+    <form action="" class="formulario" method="post">
+        
+        <label for="Diagnosis" class="formulario__label">
+            <span>Diagnóstico</span>
+            <input class="formulario__input" type="text" asp-for="Historia.Diagnostico" id="Diagnosis" required
+                pattern="^[^ ][a-zA-ZÀ-ÿ ,.]{1,100}[^ ]$"
+                title="No se permiten carácteres que no sean letras o espacios. También esta prohibido iniciar o acabar con espacios"
+                placeholder="Escribe aquí el diagnóstico">
+        </label>
+        <label for="Entorno" class="formulario__label">
+            <span>Entorno</span>
+            <input class="formulario__input" type="text" id="Entorno" required pattern="^[^ ][a-zA-ZÀ-ÿ ]{1,100}[^ ]$"
+                title="No se permiten carácteres que no sean letras o espacios. También esta prohibido iniciar o acabar con espacios"
+                placeholder="Describe el entorno del paciente" asp-for="Historia.Entorno">
+        </label>
+    
+        <label for="paciente" class="formulario__label">
+            <span>Paciente</span>    
+            <select asp-for="Historia.PacienteId" class="form-control" asp-items="ViewBag.PacienteId"></select>
+        </label>
+        <button class="formulario__btn" type="submit">Crear</button>
+    </form>
+</body>
