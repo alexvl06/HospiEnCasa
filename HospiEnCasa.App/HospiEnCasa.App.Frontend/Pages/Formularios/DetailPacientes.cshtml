@@ -69,7 +69,18 @@
         </tr>
     </table>
     <input type="hidden" value="@Model.paciente.Id" asp-for="paciente.Id">
-    <button class="formulario__btn" type="submit">Actualizar</button>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col">
+                <button class="formulario__btn" type="submit">Actualizar</button>
+            </div>
+            <div class="col">
+                    <a href="RegHistorias" class= "nav-link"> Actualizar Historia</a>
+            </div>
+        </div>
+    </div>
+    
+
     </form>
     }
 

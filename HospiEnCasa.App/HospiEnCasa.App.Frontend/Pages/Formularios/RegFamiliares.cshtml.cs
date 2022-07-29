@@ -14,26 +14,27 @@ namespace HospiEnCasa.App.Frontend.Pages
         private IRepositorioFamiliar repositorioFamiliar = new RepositorioFamiliar(new Persistencia.AppContext());
         private IRepositorioPaciente repositorioPaciente = new RepositorioPaciente(new Persistencia.AppContext());
         [BindProperty]
-        public Paciente paciente {get;set;}
-         public int? IdPaciente {get;set;}
+        public Paciente paciente { get; set; }
+        public int? IdPaciente { get; set; }
         [BindProperty]
-        public  FamiliarDesignado familiarDesignado {get;set;}
+        public FamiliarDesignado familiarDesignado { get; set; }
 
         public void OnGet(int? idPaciente)
         {
-            if(idPaciente.HasValue){
-                int IdPaciente = idPaciente.Value;
-                paciente=repositorioPaciente.GetPaciente(IdPaciente);
-                
-            familiarDesignado = new FamiliarDesignado
+            if (idPaciente.HasValue)
             {
-                PacienteId=IdPaciente
-            };
+                int IdPaciente = idPaciente.Value;
+                paciente = repositorioPaciente.GetPaciente(IdPaciente);
+
+                familiarDesignado = new FamiliarDesignado
+                {
+                    PacienteId = IdPaciente
+                };
             }
         }
         public void OnPost()
         {
-           familiarDesignado = repositorioFamiliar.AddFamiliar(familiarDesignado);
+            familiarDesignado = repositorioFamiliar.AddFamiliar(familiarDesignado);
         }
     }
 }
