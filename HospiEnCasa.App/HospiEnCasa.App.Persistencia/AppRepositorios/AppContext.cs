@@ -20,7 +20,9 @@ namespace HospiEnCasa.App.Persistencia
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Data Source=revolutic50.database.windows.net,1433;Initial Catalog=HospiEnCasaData;User ID=revolutic5.0;Password=jopaj5.0");
+                //optionsBuilder.UseSqlServer("Data Source=revolutic50.database.windows.net,1433;Initial Catalog=HospiEnCasaData;User ID=revolutic5.0;Password=jopaj5.0");
+                optionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=HospiEnCasaData;");
+
             }
         }
           protected override void OnModelCreating(ModelBuilder modelBuilder)
